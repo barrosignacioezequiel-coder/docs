@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "url": "https://mintlify.com/docs.json",
+            "fileMatch": ["docs.json"]
+        }
+    ],
+    "json.schemaDownload.enable": true,
+    "http.proxyStrictSSL": false
+}

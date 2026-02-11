@@ -1,0 +1,2057 @@
+{
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "willow",
+    "name": "Guía de Importación",
+    "description": "Aprende a importar productos desde el exterior paso a paso",
+    "colors": {
+        "primary": "#0D9373",
+        "light": "#07C983",
+        "dark": "#0D9373"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Guía",
+                "groups": [
+                    {
+                        "group": "Inicio",
+                        "pages": [
+                            "introduction"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Productos",
+                "dropdowns": [
+                    {
+                        "dropdown": "Atemporales",
+                        "icon": "infinity",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/productos/atemporales/introduccion"
+                                ]
+                            },
+                            {
+                                "group": "Industrias Químicas",
+                                "pages": [
+                                    {
+                                        "group": "33 — Perfumería y cosmética",
+                                        "icon": "spray-can-sparkles",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-33/overview",
+                                            "app/productos/atemporales/cap-33/brochas-esponjas-maquillaje",
+                                            "app/productos/atemporales/cap-33/pestanas-postizas",
+                                            "app/productos/atemporales/cap-33/aceites-esenciales",
+                                            "app/productos/atemporales/cap-33/esmaltes-nail-art",
+                                            "app/productos/atemporales/cap-33/organizadores-cosmetica"
+                                        ]
+                                    },
+                                    {
+                                        "group": "34 — Jabones, velas y limpieza",
+                                        "icon": "soap",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-34/overview",
+                                            "app/productos/atemporales/cap-34/velas-aromaticas",
+                                            "app/productos/atemporales/cap-34/velas-led",
+                                            "app/productos/atemporales/cap-34/barras-cera-sellado",
+                                            "app/productos/atemporales/cap-34/esponjas-melamina-limpieza"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Plástico y Caucho",
+                                "pages": [
+                                    {
+                                        "group": "39 — Plástico y sus manufacturas",
+                                        "icon": "box-open",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-39/overview",
+                                            "app/productos/atemporales/cap-39/organizadores-plasticos",
+                                            "app/productos/atemporales/cap-39/botellas-reutilizables",
+                                            "app/productos/atemporales/cap-39/fundas-celular",
+                                            "app/productos/atemporales/cap-39/descartables-gastronomia",
+                                            "app/productos/atemporales/cap-39/tappers-hermeticos",
+                                            "app/productos/atemporales/cap-39/organizadores-acrilico"
+                                        ]
+                                    },
+                                    {
+                                        "group": "40 — Caucho y sus manufacturas",
+                                        "icon": "circle",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-40/overview",
+                                            "app/productos/atemporales/cap-40/bandas-elasticas-fitness",
+                                            "app/productos/atemporales/cap-40/colchonetas-yoga-gym",
+                                            "app/productos/atemporales/cap-40/guantes-latex-nitrilo",
+                                            "app/productos/atemporales/cap-40/ruedas-caucho-muebles"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cueros y Marroquinería",
+                                "pages": [
+                                    {
+                                        "group": "42 — Bolsos, carteras y viaje",
+                                        "icon": "bag-shopping",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-42/overview",
+                                            "app/productos/atemporales/cap-42/mochilas",
+                                            "app/productos/atemporales/cap-42/rinoneras-bananos",
+                                            "app/productos/atemporales/cap-42/billeteras-tarjeteros",
+                                            "app/productos/atemporales/cap-42/neceseres-organizadores-viaje",
+                                            "app/productos/atemporales/cap-42/carteras-bolsos-mujer",
+                                            "app/productos/atemporales/cap-42/estuches-laptop-tablet"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Madera y Cestería",
+                                "pages": [
+                                    {
+                                        "group": "44 — Madera y manufacturas",
+                                        "icon": "tree",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-44/overview",
+                                            "app/productos/atemporales/cap-44/tablas-cocina-bambu",
+                                            "app/productos/atemporales/cap-44/organizadores-escritorio-madera",
+                                            "app/productos/atemporales/cap-44/cajas-decorativas-madera",
+                                            "app/productos/atemporales/cap-44/percheros-madera"
+                                        ]
+                                    },
+                                    {
+                                        "group": "46 — Cestería y espartería",
+                                        "icon": "basket-shopping",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-46/overview",
+                                            "app/productos/atemporales/cap-46/cestos-organizadores-fibra",
+                                            "app/productos/atemporales/cap-46/individuales-bambu-ratan",
+                                            "app/productos/atemporales/cap-46/bolsos-ratan-paja"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Papel y Cartón",
+                                "pages": [
+                                    {
+                                        "group": "48 — Papel, cartón y manufacturas",
+                                        "icon": "scroll",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-48/overview",
+                                            "app/productos/atemporales/cap-48/stickers-calcomanias",
+                                            "app/productos/atemporales/cap-48/papel-regalo-packaging",
+                                            "app/productos/atemporales/cap-48/cuadernos-agendas-planners",
+                                            "app/productos/atemporales/cap-48/washi-tape",
+                                            "app/productos/atemporales/cap-48/cajas-packaging-envios"
+                                        ]
+                                    },
+                                    {
+                                        "group": "49 — Productos editoriales y gráficos",
+                                        "icon": "book",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-49/overview",
+                                            "app/productos/atemporales/cap-49/laminas-posters-decorativos",
+                                            "app/productos/atemporales/cap-49/vinilos-decorativos",
+                                            "app/productos/atemporales/cap-49/calendarios-planificadores"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Textiles",
+                                "pages": [
+                                    {
+                                        "group": "56 — Guata, fieltro y no tejidos",
+                                        "icon": "mattress-pillow",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-56/overview",
+                                            "app/productos/atemporales/cap-56/panos-microfibra",
+                                            "app/productos/atemporales/cap-56/fieltro-manualidades",
+                                            "app/productos/atemporales/cap-56/friselina-tnt",
+                                            "app/productos/atemporales/cap-56/cuerdas-sogas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "57 — Alfombras y revestimientos",
+                                        "icon": "rug",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-57/overview",
+                                            "app/productos/atemporales/cap-57/alfombras-pelo-largo",
+                                            "app/productos/atemporales/cap-57/alfombras-bano",
+                                            "app/productos/atemporales/cap-57/felpudos-entrada",
+                                            "app/productos/atemporales/cap-57/pisos-goma-eva"
+                                        ]
+                                    },
+                                    {
+                                        "group": "61 — Ropa de punto",
+                                        "icon": "shirt",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-61/overview",
+                                            "app/productos/atemporales/cap-61/ropa-deportiva-punto",
+                                            "app/productos/atemporales/cap-61/buzos-hoodies",
+                                            "app/productos/atemporales/cap-61/medias-calcetines",
+                                            "app/productos/atemporales/cap-61/calzas-deportivas",
+                                            "app/productos/atemporales/cap-61/ropa-interior-punto"
+                                        ]
+                                    },
+                                    {
+                                        "group": "62 — Ropa (excepto punto)",
+                                        "icon": "vest",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-62/overview",
+                                            "app/productos/atemporales/cap-62/camperas-impermeables",
+                                            "app/productos/atemporales/cap-62/camisas",
+                                            "app/productos/atemporales/cap-62/pantalones",
+                                            "app/productos/atemporales/cap-62/ropa-trabajo-uniformes"
+                                        ]
+                                    },
+                                    {
+                                        "group": "63 — Textiles para el hogar",
+                                        "icon": "bed",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-63/overview",
+                                            "app/productos/atemporales/cap-63/juegos-sabanas",
+                                            "app/productos/atemporales/cap-63/toallas-microfibra",
+                                            "app/productos/atemporales/cap-63/cortinas",
+                                            "app/productos/atemporales/cap-63/fundas-almohada",
+                                            "app/productos/atemporales/cap-63/bolsas-reutilizables",
+                                            "app/productos/atemporales/cap-63/manteles"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Calzado y Accesorios",
+                                "pages": [
+                                    {
+                                        "group": "64 — Calzado",
+                                        "icon": "shoe-prints",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-64/overview",
+                                            "app/productos/atemporales/cap-64/ojotas-chinelas",
+                                            "app/productos/atemporales/cap-64/pantuflas",
+                                            "app/productos/atemporales/cap-64/zapatillas-deportivas",
+                                            "app/productos/atemporales/cap-64/sandalias-casual"
+                                        ]
+                                    },
+                                    {
+                                        "group": "65 — Sombreros y tocados",
+                                        "icon": "hat-cowboy",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-65/overview",
+                                            "app/productos/atemporales/cap-65/gorras",
+                                            "app/productos/atemporales/cap-65/gorros",
+                                            "app/productos/atemporales/cap-65/viseras-deportivas",
+                                            "app/productos/atemporales/cap-65/cuellos-termicos"
+                                        ]
+                                    },
+                                    {
+                                        "group": "66 — Paraguas y sombrillas",
+                                        "icon": "umbrella",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-66/overview",
+                                            "app/productos/atemporales/cap-66/paraguas-automaticos",
+                                            "app/productos/atemporales/cap-66/paraguas-mini",
+                                            "app/productos/atemporales/cap-66/sombrillas-parasoles"
+                                        ]
+                                    },
+                                    {
+                                        "group": "67 — Flores artificiales y plumas",
+                                        "icon": "feather",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-67/overview",
+                                            "app/productos/atemporales/cap-67/flores-artificiales",
+                                            "app/productos/atemporales/cap-67/enredaderas-artificiales",
+                                            "app/productos/atemporales/cap-67/plumas-decorativas",
+                                            "app/productos/atemporales/cap-67/cabello-sintetico"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cerámica y Vidrio",
+                                "pages": [
+                                    {
+                                        "group": "69 — Productos cerámicos",
+                                        "icon": "mug-hot",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-69/overview",
+                                            "app/productos/atemporales/cap-69/tazas-ceramica",
+                                            "app/productos/atemporales/cap-69/vajilla-sets",
+                                            "app/productos/atemporales/cap-69/macetas-decorativas",
+                                            "app/productos/atemporales/cap-69/accesorios-bano-ceramica"
+                                        ]
+                                    },
+                                    {
+                                        "group": "70 — Vidrio y sus manufacturas",
+                                        "icon": "wine-glass",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-70/overview",
+                                            "app/productos/atemporales/cap-70/vidrio-templado-celular",
+                                            "app/productos/atemporales/cap-70/vasos-copas-vidrio",
+                                            "app/productos/atemporales/cap-70/botellas-frascos-vidrio"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Bisutería",
+                                "pages": [
+                                    {
+                                        "group": "71 — Bisutería y piedras preciosas",
+                                        "icon": "gem",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-71/overview",
+                                            "app/productos/atemporales/cap-71/bijouterie-acero-inoxidable",
+                                            "app/productos/atemporales/cap-71/relojes-moda",
+                                            "app/productos/atemporales/cap-71/accesorios-cabello",
+                                            "app/productos/atemporales/cap-71/piercing-aros-fantasia"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Metales Comunes",
+                                "pages": [
+                                    {
+                                        "group": "73 — Manufacturas de hierro/acero",
+                                        "icon": "toolbox",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-73/overview",
+                                            "app/productos/atemporales/cap-73/griferia-cocina-bano",
+                                            "app/productos/atemporales/cap-73/soportes-tv",
+                                            "app/productos/atemporales/cap-73/utensilios-cocina-acero",
+                                            "app/productos/atemporales/cap-73/estanterias-metalicas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "76 — Aluminio y manufacturas",
+                                        "icon": "cubes",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-76/overview",
+                                            "app/productos/atemporales/cap-76/botellas-termos",
+                                            "app/productos/atemporales/cap-76/perfiles-aluminio-led",
+                                            "app/productos/atemporales/cap-76/papel-aluminio-bandejas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "82 — Herramientas y cuchillería",
+                                        "icon": "screwdriver-wrench",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-82/overview",
+                                            "app/productos/atemporales/cap-82/sets-cuchillos-cocina",
+                                            "app/productos/atemporales/cap-82/herramientas-manuales",
+                                            "app/productos/atemporales/cap-82/tijeras-multiuso",
+                                            "app/productos/atemporales/cap-82/cubiertos-mesa"
+                                        ]
+                                    },
+                                    {
+                                        "group": "83 — Manufacturas diversas de metal",
+                                        "icon": "lock",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-83/overview",
+                                            "app/productos/atemporales/cap-83/candados-cerraduras",
+                                            "app/productos/atemporales/cap-83/herrajes-muebles",
+                                            "app/productos/atemporales/cap-83/tornilleria-buloneria",
+                                            "app/productos/atemporales/cap-83/ganchos-perchas-metal"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Máquinas y Electrónica",
+                                "pages": [
+                                    {
+                                        "group": "84 — Máquinas y aparatos mecánicos",
+                                        "icon": "gears",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-84/overview",
+                                            "app/productos/atemporales/cap-84/freidoras-aire",
+                                            "app/productos/atemporales/cap-84/aspiradoras-robot",
+                                            "app/productos/atemporales/cap-84/licuadoras-batidoras",
+                                            "app/productos/atemporales/cap-84/cafeteras",
+                                            "app/productos/atemporales/cap-84/taladros-atornilladores",
+                                            "app/productos/atemporales/cap-84/amoladoras",
+                                            "app/productos/atemporales/cap-84/balanzas-digitales"
+                                        ]
+                                    },
+                                    {
+                                        "group": "85 — Electrónica y material eléctrico",
+                                        "icon": "microchip",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-85/overview",
+                                            "app/productos/atemporales/cap-85/auriculares-bluetooth",
+                                            "app/productos/atemporales/cap-85/parlantes-bluetooth",
+                                            "app/productos/atemporales/cap-85/smartwatches",
+                                            "app/productos/atemporales/cap-85/cargadores-cables-usb",
+                                            "app/productos/atemporales/cap-85/power-banks",
+                                            "app/productos/atemporales/cap-85/fundas-celulares",
+                                            "app/productos/atemporales/cap-85/camaras-seguridad-wifi",
+                                            "app/productos/atemporales/cap-85/iluminacion-led",
+                                            "app/productos/atemporales/cap-85/dispositivos-smart-home",
+                                            "app/productos/atemporales/cap-85/soportes-celular",
+                                            "app/productos/atemporales/cap-85/aros-luz-ring-light",
+                                            "app/productos/atemporales/cap-85/cortadoras-pelo"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Transporte",
+                                "pages": [
+                                    {
+                                        "group": "87 — Vehículos, partes y accesorios",
+                                        "icon": "car",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-87/overview",
+                                            "app/productos/atemporales/cap-87/fundas-asiento-auto",
+                                            "app/productos/atemporales/cap-87/organizadores-auto",
+                                            "app/productos/atemporales/cap-87/luces-led-auto",
+                                            "app/productos/atemporales/cap-87/alfombrillas-baul-auto",
+                                            "app/productos/atemporales/cap-87/parasoles-auto"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Óptica, Relojería y Música",
+                                "pages": [
+                                    {
+                                        "group": "90 — Óptica, precisión e instrumentos médicos",
+                                        "icon": "glasses",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-90/overview",
+                                            "app/productos/atemporales/cap-90/lentes-sol",
+                                            "app/productos/atemporales/cap-90/termometros-digitales",
+                                            "app/productos/atemporales/cap-90/oximetros-pulso",
+                                            "app/productos/atemporales/cap-90/lupas-led",
+                                            "app/productos/atemporales/cap-90/tensiometros-digitales"
+                                        ]
+                                    },
+                                    {
+                                        "group": "91 — Relojería",
+                                        "icon": "clock",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-91/overview",
+                                            "app/productos/atemporales/cap-91/relojes-pared",
+                                            "app/productos/atemporales/cap-91/despertadores-digitales",
+                                            "app/productos/atemporales/cap-91/mecanismos-reloj",
+                                            "app/productos/atemporales/cap-91/relojes-pulsera-economicos"
+                                        ]
+                                    },
+                                    {
+                                        "group": "92 — Instrumentos musicales",
+                                        "icon": "guitar",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-92/overview",
+                                            "app/productos/atemporales/cap-92/ukuleles",
+                                            "app/productos/atemporales/cap-92/kalimbas",
+                                            "app/productos/atemporales/cap-92/accesorios-guitarra",
+                                            "app/productos/atemporales/cap-92/teclados-musicales",
+                                            "app/productos/atemporales/cap-92/soportes-atriles-musica"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Mercancías Diversas",
+                                "pages": [
+                                    {
+                                        "group": "94 — Muebles e iluminación",
+                                        "icon": "couch",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-94/overview",
+                                            "app/productos/atemporales/cap-94/lamparas-escritorio-led",
+                                            "app/productos/atemporales/cap-94/lamparas-decorativas",
+                                            "app/productos/atemporales/cap-94/muebles-organizadores",
+                                            "app/productos/atemporales/cap-94/tiras-led-controladores",
+                                            "app/productos/atemporales/cap-94/almohadas-memory-foam",
+                                            "app/productos/atemporales/cap-94/sillas-gamer"
+                                        ]
+                                    },
+                                    {
+                                        "group": "95 — Juguetes, juegos y deportes",
+                                        "icon": "gamepad",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-95/overview",
+                                            "app/productos/atemporales/cap-95/juguetes-didacticos",
+                                            "app/productos/atemporales/cap-95/bandas-elasticas-fitness",
+                                            "app/productos/atemporales/cap-95/pelotas-deportivas",
+                                            "app/productos/atemporales/cap-95/juegos-mesa",
+                                            "app/productos/atemporales/cap-95/mancuernas-pesas",
+                                            "app/productos/atemporales/cap-95/drones-recreativos"
+                                        ]
+                                    },
+                                    {
+                                        "group": "96 — Manufacturas diversas",
+                                        "icon": "pen",
+                                        "pages": [
+                                            "app/productos/atemporales/cap-96/overview",
+                                            "app/productos/atemporales/cap-96/brochas-pinceles-maquillaje",
+                                            "app/productos/atemporales/cap-96/encendedores",
+                                            "app/productos/atemporales/cap-96/termos-accesorios-mate",
+                                            "app/productos/atemporales/cap-96/cepillos-dentales-electricos",
+                                            "app/productos/atemporales/cap-96/botones-cierres-costura"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dropdown": "Verano (Dic–Feb)",
+                        "icon": "sun",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/productos/verano/introduccion"
+                                ]
+                            },
+                            {
+                                "group": "Industrias Químicas",
+                                "pages": [
+                                    {
+                                        "group": "33 — Perfumería y cosmética",
+                                        "icon": "spray-can-sparkles",
+                                        "pages": [
+                                            "app/productos/verano/cap-33/overview",
+                                            "app/productos/verano/cap-33/protectores-solares",
+                                            "app/productos/verano/cap-33/bronceadores",
+                                            "app/productos/verano/cap-33/after-sun-aloe",
+                                            "app/productos/verano/cap-33/repelentes-insectos"
+                                        ]
+                                    },
+                                    {
+                                        "group": "34 — Jabones, velas y limpieza",
+                                        "icon": "soap",
+                                        "pages": [
+                                            "app/productos/verano/cap-34/overview",
+                                            "app/productos/verano/cap-34/velas-citronella",
+                                            "app/productos/verano/cap-34/espirales-antimosquitos"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Plástico y Caucho",
+                                "pages": [
+                                    {
+                                        "group": "39 — Plástico y sus manufacturas",
+                                        "icon": "box-open",
+                                        "pages": [
+                                            "app/productos/verano/cap-39/overview",
+                                            "app/productos/verano/cap-39/conservadoras-portatiles",
+                                            "app/productos/verano/cap-39/dispensers-bidones-agua",
+                                            "app/productos/verano/cap-39/botellas-deportivas-verano",
+                                            "app/productos/verano/cap-39/juguetes-agua-plasticos",
+                                            "app/productos/verano/cap-39/piletas-plasticas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "40 — Caucho y sus manufacturas",
+                                        "icon": "circle",
+                                        "pages": [
+                                            "app/productos/verano/cap-40/overview",
+                                            "app/productos/verano/cap-40/colchonetas-inflables",
+                                            "app/productos/verano/cap-40/flotadores-inflables",
+                                            "app/productos/verano/cap-40/pelotas-playa",
+                                            "app/productos/verano/cap-40/antiparras-natacion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cueros y Marroquinería",
+                                "pages": [
+                                    {
+                                        "group": "42 — Bolsos, carteras y viaje",
+                                        "icon": "bag-shopping",
+                                        "pages": [
+                                            "app/productos/verano/cap-42/overview",
+                                            "app/productos/verano/cap-42/bolsos-playa",
+                                            "app/productos/verano/cap-42/mochilas-trekking",
+                                            "app/productos/verano/cap-42/bolsos-termicos-playa"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Madera y Cestería",
+                                "pages": [
+                                    {
+                                        "group": "44 — Madera y manufacturas",
+                                        "icon": "tree",
+                                        "pages": [
+                                            "app/productos/verano/cap-44/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "46 — Cestería y espartería",
+                                        "icon": "basket-shopping",
+                                        "pages": [
+                                            "app/productos/verano/cap-46/overview",
+                                            "app/productos/verano/cap-46/sombreros-paja-playa",
+                                            "app/productos/verano/cap-46/bolsos-canasto-playa-paja"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Papel y Cartón",
+                                "pages": [
+                                    {
+                                        "group": "48 — Papel, cartón y manufacturas",
+                                        "icon": "scroll",
+                                        "pages": [
+                                            "app/productos/verano/cap-48/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "49 — Productos editoriales y gráficos",
+                                        "icon": "book",
+                                        "pages": [
+                                            "app/productos/verano/cap-49/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Textiles",
+                                "pages": [
+                                    {
+                                        "group": "56 — Guata, fieltro y no tejidos",
+                                        "icon": "mattress-pillow",
+                                        "pages": [
+                                            "app/productos/verano/cap-56/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "57 — Alfombras y revestimientos",
+                                        "icon": "rug",
+                                        "pages": [
+                                            "app/productos/verano/cap-57/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "61 — Ropa de punto",
+                                        "icon": "shirt",
+                                        "pages": [
+                                            "app/productos/verano/cap-61/overview",
+                                            "app/productos/verano/cap-61/trajes-bano-punto",
+                                            "app/productos/verano/cap-61/remeras-musculosas-verano",
+                                            "app/productos/verano/cap-61/shorts-bermudas-punto"
+                                        ]
+                                    },
+                                    {
+                                        "group": "62 — Ropa (excepto punto)",
+                                        "icon": "vest",
+                                        "pages": [
+                                            "app/productos/verano/cap-62/overview",
+                                            "app/productos/verano/cap-62/shorts-bano-tela",
+                                            "app/productos/verano/cap-62/vestidos-verano",
+                                            "app/productos/verano/cap-62/camisas-hawaianas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "63 — Textiles para el hogar",
+                                        "icon": "bed",
+                                        "pages": [
+                                            "app/productos/verano/cap-63/overview",
+                                            "app/productos/verano/cap-63/toallas-playa",
+                                            "app/productos/verano/cap-63/lonas-toldos-playa",
+                                            "app/productos/verano/cap-63/carpas-camping",
+                                            "app/productos/verano/cap-63/salidas-bano"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Calzado y Accesorios",
+                                "pages": [
+                                    {
+                                        "group": "64 — Calzado",
+                                        "icon": "shoe-prints",
+                                        "pages": [
+                                            "app/productos/verano/cap-64/overview",
+                                            "app/productos/verano/cap-64/ojotas-sandalias-verano",
+                                            "app/productos/verano/cap-64/calzado-acuatico",
+                                            "app/productos/verano/cap-64/sandalias-deportivas-outdoor"
+                                        ]
+                                    },
+                                    {
+                                        "group": "65 — Sombreros y tocados",
+                                        "icon": "hat-cowboy",
+                                        "pages": [
+                                            "app/productos/verano/cap-65/overview",
+                                            "app/productos/verano/cap-65/sombreros-sol-playa",
+                                            "app/productos/verano/cap-65/viseras-playa"
+                                        ]
+                                    },
+                                    {
+                                        "group": "66 — Paraguas y sombrillas",
+                                        "icon": "umbrella",
+                                        "pages": [
+                                            "app/productos/verano/cap-66/overview",
+                                            "app/productos/verano/cap-66/sombrillas-playa",
+                                            "app/productos/verano/cap-66/parasoles-uv-personales"
+                                        ]
+                                    },
+                                    {
+                                        "group": "67 — Flores artificiales y plumas",
+                                        "icon": "feather",
+                                        "pages": [
+                                            "app/productos/verano/cap-67/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cerámica y Vidrio",
+                                "pages": [
+                                    {
+                                        "group": "69 — Productos cerámicos",
+                                        "icon": "mug-hot",
+                                        "pages": [
+                                            "app/productos/verano/cap-69/overview",
+                                            "app/productos/verano/cap-69/venecitas-mosaico-pileta",
+                                            "app/productos/verano/cap-69/bordes-atermicos-pileta"
+                                        ]
+                                    },
+                                    {
+                                        "group": "70 — Vidrio y sus manufacturas",
+                                        "icon": "wine-glass",
+                                        "pages": [
+                                            "app/productos/verano/cap-70/overview",
+                                            "app/productos/verano/cap-70/venecitas-vidrio-pileta"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Bisutería",
+                                "pages": [
+                                    {
+                                        "group": "71 — Bisutería y piedras preciosas",
+                                        "icon": "gem",
+                                        "pages": [
+                                            "app/productos/verano/cap-71/overview",
+                                            "app/productos/verano/cap-71/tobilleras-playeras",
+                                            "app/productos/verano/cap-71/bijouterie-playa-mar"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Metales Comunes",
+                                "pages": [
+                                    {
+                                        "group": "73 — Manufacturas de hierro/acero",
+                                        "icon": "toolbox",
+                                        "pages": [
+                                            "app/productos/verano/cap-73/overview",
+                                            "app/productos/verano/cap-73/escaleras-pileta-inox",
+                                            "app/productos/verano/cap-73/cascadas-cortina-agua-inox",
+                                            "app/productos/verano/cap-73/accesorios-asado-acero"
+                                        ]
+                                    },
+                                    {
+                                        "group": "76 — Aluminio y manufacturas",
+                                        "icon": "cubes",
+                                        "pages": [
+                                            "app/productos/verano/cap-76/overview",
+                                            "app/productos/verano/cap-76/estructuras-aluminio-playa",
+                                            "app/productos/verano/cap-76/mesas-aluminio-plegables"
+                                        ]
+                                    },
+                                    {
+                                        "group": "82 — Herramientas y cuchillería",
+                                        "icon": "screwdriver-wrench",
+                                        "pages": [
+                                            "app/productos/verano/cap-82/overview",
+                                            "app/productos/verano/cap-82/cuchillos-asado-camping",
+                                            "app/productos/verano/cap-82/raquetas-electricas-mosquitos"
+                                        ]
+                                    },
+                                    {
+                                        "group": "83 — Manufacturas diversas de metal",
+                                        "icon": "lock",
+                                        "pages": [
+                                            "app/productos/verano/cap-83/overview",
+                                            "app/productos/verano/cap-83/candados-tsa-viaje",
+                                            "app/productos/verano/cap-83/estacas-anclajes-playa"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Máquinas y Electrónica",
+                                "pages": [
+                                    {
+                                        "group": "84 — Máquinas y aparatos mecánicos",
+                                        "icon": "gears",
+                                        "pages": [
+                                            "app/productos/verano/cap-84/overview",
+                                            "app/productos/verano/cap-84/ventiladores-pie",
+                                            "app/productos/verano/cap-84/ventiladores-techo",
+                                            "app/productos/verano/cap-84/climatizadores-evaporativos",
+                                            "app/productos/verano/cap-84/ventiladores-nebulizadores",
+                                            "app/productos/verano/cap-84/fabricadoras-hielo",
+                                            "app/productos/verano/cap-84/bombas-pileta",
+                                            "app/productos/verano/cap-84/filtros-arena-pileta"
+                                        ]
+                                    },
+                                    {
+                                        "group": "85 — Electrónica y material eléctrico",
+                                        "icon": "microchip",
+                                        "pages": [
+                                            "app/productos/verano/cap-85/overview",
+                                            "app/productos/verano/cap-85/lamparas-mata-mosquitos",
+                                            "app/productos/verano/cap-85/parlantes-waterproof",
+                                            "app/productos/verano/cap-85/luces-solares-exterior",
+                                            "app/productos/verano/cap-85/faroles-led-camping",
+                                            "app/productos/verano/cap-85/duchas-portatiles-12v"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Transporte",
+                                "pages": [
+                                    {
+                                        "group": "87 — Vehículos, partes y accesorios",
+                                        "icon": "car",
+                                        "pages": [
+                                            "app/productos/verano/cap-87/overview",
+                                            "app/productos/verano/cap-87/portaequipajes-techo",
+                                            "app/productos/verano/cap-87/barras-techo-portabicicletas",
+                                            "app/productos/verano/cap-87/heladeras-portatiles-auto",
+                                            "app/productos/verano/cap-87/ventiladores-auto-12v"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Óptica, Relojería y Música",
+                                "pages": [
+                                    {
+                                        "group": "90 — Óptica, precisión e instrumentos médicos",
+                                        "icon": "glasses",
+                                        "pages": [
+                                            "app/productos/verano/cap-90/overview",
+                                            "app/productos/verano/cap-90/antiparras-natacion-opticas",
+                                            "app/productos/verano/cap-90/camaras-acuaticas",
+                                            "app/productos/verano/cap-90/snorkels-mascaras-buceo"
+                                        ]
+                                    },
+                                    {
+                                        "group": "91 — Relojería",
+                                        "icon": "clock",
+                                        "pages": [
+                                            "app/productos/verano/cap-91/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "92 — Instrumentos musicales",
+                                        "icon": "guitar",
+                                        "pages": [
+                                            "app/productos/verano/cap-92/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Mercancías Diversas",
+                                "pages": [
+                                    {
+                                        "group": "94 — Muebles e iluminación",
+                                        "icon": "couch",
+                                        "pages": [
+                                            "app/productos/verano/cap-94/overview",
+                                            "app/productos/verano/cap-94/reposeras-plegables",
+                                            "app/productos/verano/cap-94/sombrillas-jardin",
+                                            "app/productos/verano/cap-94/gazebos-carpas-plegables",
+                                            "app/productos/verano/cap-94/mesas-sillas-plegables",
+                                            "app/productos/verano/cap-94/hamacas-colgantes",
+                                            "app/productos/verano/cap-94/luces-solares-jardin"
+                                        ]
+                                    },
+                                    {
+                                        "group": "95 — Juguetes, juegos y deportes",
+                                        "icon": "gamepad",
+                                        "pages": [
+                                            "app/productos/verano/cap-95/overview",
+                                            "app/productos/verano/cap-95/piletas-inflables",
+                                            "app/productos/verano/cap-95/juguetes-agua",
+                                            "app/productos/verano/cap-95/sets-playa-infantil",
+                                            "app/productos/verano/cap-95/pelotas-playa-inflables",
+                                            "app/productos/verano/cap-95/flotadores-colchonetas-inflables",
+                                            "app/productos/verano/cap-95/carpas-camping-playa",
+                                            "app/productos/verano/cap-95/bolsas-dormir-verano",
+                                            "app/productos/verano/cap-95/bicicletas-accesorios",
+                                            "app/productos/verano/cap-95/patinetas-skateboards",
+                                            "app/productos/verano/cap-95/rollers-patines",
+                                            "app/productos/verano/cap-95/equipamiento-natacion",
+                                            "app/productos/verano/cap-95/kayaks-sup-inflables"
+                                        ]
+                                    },
+                                    {
+                                        "group": "96 — Manufacturas diversas",
+                                        "icon": "pen",
+                                        "pages": [
+                                            "app/productos/verano/cap-96/overview",
+                                            "app/productos/verano/cap-96/protectores-labiales-spf",
+                                            "app/productos/verano/cap-96/abanicos-plegables"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dropdown": "Otoño (Mar–May)",
+                        "icon": "leaf",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/productos/otono/introduccion"
+                                ]
+                            },
+                            {
+                                "group": "Industrias Químicas",
+                                "pages": [
+                                    {
+                                        "group": "33 — Perfumería y cosmética",
+                                        "icon": "spray-can-sparkles",
+                                        "pages": [
+                                            "app/productos/otono/cap-33/overview",
+                                            "app/productos/otono/cap-33/cremas-hidratantes-otono",
+                                            "app/productos/otono/cap-33/balsamos-labiales-otono"
+                                        ]
+                                    },
+                                    {
+                                        "group": "34 — Jabones, velas y limpieza",
+                                        "icon": "soap",
+                                        "pages": [
+                                            "app/productos/otono/cap-34/overview",
+                                            "app/productos/otono/cap-34/velas-otono-invierno"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Plástico y Caucho",
+                                "pages": [
+                                    {
+                                        "group": "39 — Plástico y sus manufacturas",
+                                        "icon": "box-open",
+                                        "pages": [
+                                            "app/productos/otono/cap-39/overview",
+                                            "app/productos/otono/cap-39/termos-vasos-termicos",
+                                            "app/productos/otono/cap-39/moldes-chocolate-pascua",
+                                            "app/productos/otono/cap-39/packaging-pascua",
+                                            "app/productos/otono/cap-39/organizadores-escolares-plastico"
+                                        ]
+                                    },
+                                    {
+                                        "group": "40 — Caucho y sus manufacturas",
+                                        "icon": "circle",
+                                        "pages": [
+                                            "app/productos/otono/cap-40/overview",
+                                            "app/productos/otono/cap-40/botas-lluvia-caucho"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cueros y Marroquinería",
+                                "pages": [
+                                    {
+                                        "group": "42 — Bolsos, carteras y viaje",
+                                        "icon": "bag-shopping",
+                                        "pages": [
+                                            "app/productos/otono/cap-42/overview",
+                                            "app/productos/otono/cap-42/mochilas-escolares-personajes",
+                                            "app/productos/otono/cap-42/cartucheras-escolares",
+                                            "app/productos/otono/cap-42/luncheras-escolares"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Madera y Cestería",
+                                "pages": [
+                                    {
+                                        "group": "44 — Madera y manufacturas",
+                                        "icon": "tree",
+                                        "pages": [
+                                            "app/productos/otono/cap-44/overview",
+                                            "app/productos/otono/cap-44/organizadores-escritorio-escolar"
+                                        ]
+                                    },
+                                    {
+                                        "group": "46 — Cestería y espartería",
+                                        "icon": "basket-shopping",
+                                        "pages": [
+                                            "app/productos/otono/cap-46/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Papel y Cartón",
+                                "pages": [
+                                    {
+                                        "group": "48 — Papel, cartón y manufacturas",
+                                        "icon": "scroll",
+                                        "pages": [
+                                            "app/productos/otono/cap-48/overview",
+                                            "app/productos/otono/cap-48/cuadernos-escolares-otono",
+                                            "app/productos/otono/cap-48/carpetas-folios-escolares",
+                                            "app/productos/otono/cap-48/etiquetas-escolares"
+                                        ]
+                                    },
+                                    {
+                                        "group": "49 — Productos editoriales y gráficos",
+                                        "icon": "book",
+                                        "pages": [
+                                            "app/productos/otono/cap-49/overview",
+                                            "app/productos/otono/cap-49/laminas-escolares-educativas"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Textiles",
+                                "pages": [
+                                    {
+                                        "group": "56 — Guata, fieltro y no tejidos",
+                                        "icon": "mattress-pillow",
+                                        "pages": [
+                                            "app/productos/otono/cap-56/overview",
+                                            "app/productos/otono/cap-56/fieltro-goma-eva-escolar"
+                                        ]
+                                    },
+                                    {
+                                        "group": "57 — Alfombras y revestimientos",
+                                        "icon": "rug",
+                                        "pages": [
+                                            "app/productos/otono/cap-57/overview",
+                                            "app/productos/otono/cap-57/alfombras-pelo-largo-otono"
+                                        ]
+                                    },
+                                    {
+                                        "group": "61 — Ropa de punto",
+                                        "icon": "shirt",
+                                        "pages": [
+                                            "app/productos/otono/cap-61/overview",
+                                            "app/productos/otono/cap-61/buzos-canguro-otono",
+                                            "app/productos/otono/cap-61/camperas-polar-otono",
+                                            "app/productos/otono/cap-61/medias-termicas-otono",
+                                            "app/productos/otono/cap-61/ropa-interior-termica"
+                                        ]
+                                    },
+                                    {
+                                        "group": "62 — Ropa (excepto punto)",
+                                        "icon": "vest",
+                                        "pages": [
+                                            "app/productos/otono/cap-62/overview",
+                                            "app/productos/otono/cap-62/camperas-rompevientos-otono",
+                                            "app/productos/otono/cap-62/guardapolvos-escolares",
+                                            "app/productos/otono/cap-62/pantalones-gabardina-otono"
+                                        ]
+                                    },
+                                    {
+                                        "group": "63 — Textiles para el hogar",
+                                        "icon": "bed",
+                                        "pages": [
+                                            "app/productos/otono/cap-63/overview",
+                                            "app/productos/otono/cap-63/frazadas-mantas-polar",
+                                            "app/productos/otono/cap-63/acolchados-edredones-invierno",
+                                            "app/productos/otono/cap-63/bufandas-cuellos-polar",
+                                            "app/productos/otono/cap-63/sabanas-flanela-otono"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Calzado y Accesorios",
+                                "pages": [
+                                    {
+                                        "group": "64 — Calzado",
+                                        "icon": "shoe-prints",
+                                        "pages": [
+                                            "app/productos/otono/cap-64/overview",
+                                            "app/productos/otono/cap-64/pantuflas-invierno",
+                                            "app/productos/otono/cap-64/botines-botas-otono"
+                                        ]
+                                    },
+                                    {
+                                        "group": "65 — Sombreros y tocados",
+                                        "icon": "hat-cowboy",
+                                        "pages": [
+                                            "app/productos/otono/cap-65/overview",
+                                            "app/productos/otono/cap-65/gorros-lana-polar-otono"
+                                        ]
+                                    },
+                                    {
+                                        "group": "66 — Paraguas y sombrillas",
+                                        "icon": "umbrella",
+                                        "pages": [
+                                            "app/productos/otono/cap-66/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "67 — Flores artificiales y plumas",
+                                        "icon": "feather",
+                                        "pages": [
+                                            "app/productos/otono/cap-67/overview",
+                                            "app/productos/otono/cap-67/ramas-hojas-otono-deco"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cerámica y Vidrio",
+                                "pages": [
+                                    {
+                                        "group": "69 — Productos cerámicos",
+                                        "icon": "mug-hot",
+                                        "pages": [
+                                            "app/productos/otono/cap-69/overview",
+                                            "app/productos/otono/cap-69/tazones-mugs-grandes",
+                                            "app/productos/otono/cap-69/fuentes-refractarias-horno"
+                                        ]
+                                    },
+                                    {
+                                        "group": "70 — Vidrio y sus manufacturas",
+                                        "icon": "wine-glass",
+                                        "pages": [
+                                            "app/productos/otono/cap-70/overview",
+                                            "app/productos/otono/cap-70/tazas-doble-pared-vidrio",
+                                            "app/productos/otono/cap-70/teteras-vidrio-infusor"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Bisutería",
+                                "pages": [
+                                    {
+                                        "group": "71 — Bisutería y piedras preciosas",
+                                        "icon": "gem",
+                                        "pages": [
+                                            "app/productos/otono/cap-71/overview",
+                                            "app/productos/otono/cap-71/prendedores-broches-abrigo",
+                                            "app/productos/otono/cap-71/pins-decorativos-metal"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Metales Comunes",
+                                "pages": [
+                                    {
+                                        "group": "73 — Manufacturas de hierro/acero",
+                                        "icon": "toolbox",
+                                        "pages": [
+                                            "app/productos/otono/cap-73/overview",
+                                            "app/productos/otono/cap-73/percheros-metal-abrigos",
+                                            "app/productos/otono/cap-73/bombillas-acero-mate"
+                                        ]
+                                    },
+                                    {
+                                        "group": "76 — Aluminio y manufacturas",
+                                        "icon": "cubes",
+                                        "pages": [
+                                            "app/productos/otono/cap-76/overview",
+                                            "app/productos/otono/cap-76/termos-aluminio-mate"
+                                        ]
+                                    },
+                                    {
+                                        "group": "82 — Herramientas y cuchillería",
+                                        "icon": "screwdriver-wrench",
+                                        "pages": [
+                                            "app/productos/otono/cap-82/overview",
+                                            "app/productos/otono/cap-82/tijeras-podar-profesionales",
+                                            "app/productos/otono/cap-82/serruchos-poda-plegables"
+                                        ]
+                                    },
+                                    {
+                                        "group": "83 — Manufacturas diversas de metal",
+                                        "icon": "lock",
+                                        "pages": [
+                                            "app/productos/otono/cap-83/overview",
+                                            "app/productos/otono/cap-83/candados-combinacion-escolar",
+                                            "app/productos/otono/cap-83/portavelas-candelabros-metal"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Máquinas y Electrónica",
+                                "pages": [
+                                    {
+                                        "group": "84 — Máquinas y aparatos mecánicos",
+                                        "icon": "gears",
+                                        "pages": [
+                                            "app/productos/otono/cap-84/overview",
+                                            "app/productos/otono/cap-84/calefactores-electricos-convectores",
+                                            "app/productos/otono/cap-84/calefactores-halogenos-cuarzo",
+                                            "app/productos/otono/cap-84/deshumidificadores-portatiles",
+                                            "app/productos/otono/cap-84/humidificadores-ultrasonicos"
+                                        ]
+                                    },
+                                    {
+                                        "group": "85 — Electrónica y material eléctrico",
+                                        "icon": "microchip",
+                                        "pages": [
+                                            "app/productos/otono/cap-85/overview",
+                                            "app/productos/otono/cap-85/lamparas-led-escritorio",
+                                            "app/productos/otono/cap-85/mantas-electricas-termicas",
+                                            "app/productos/otono/cap-85/toalleros-electricos",
+                                            "app/productos/otono/cap-85/lamparas-sal-himalaya"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Transporte",
+                                "pages": [
+                                    {
+                                        "group": "87 — Vehículos, partes y accesorios",
+                                        "icon": "car",
+                                        "pages": [
+                                            "app/productos/otono/cap-87/overview",
+                                            "app/productos/otono/cap-87/cubres-parabrisas-antihelada",
+                                            "app/productos/otono/cap-87/raspadores-hielo-parabrisas",
+                                            "app/productos/otono/cap-87/fundas-asiento-calefaccion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Óptica, Relojería y Música",
+                                "pages": [
+                                    {
+                                        "group": "90 — Óptica, precisión e instrumentos médicos",
+                                        "icon": "glasses",
+                                        "pages": [
+                                            "app/productos/otono/cap-90/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "91 — Relojería",
+                                        "icon": "clock",
+                                        "pages": [
+                                            "app/productos/otono/cap-91/overview",
+                                            "app/productos/otono/cap-91/relojes-gps-ninos"
+                                        ]
+                                    },
+                                    {
+                                        "group": "92 — Instrumentos musicales",
+                                        "icon": "guitar",
+                                        "pages": [
+                                            "app/productos/otono/cap-92/overview",
+                                            "app/productos/otono/cap-92/flautas-dulces-escolares"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Mercancías Diversas",
+                                "pages": [
+                                    {
+                                        "group": "94 — Muebles e iluminación",
+                                        "icon": "couch",
+                                        "pages": [
+                                            "app/productos/otono/cap-94/overview",
+                                            "app/productos/otono/cap-94/paneles-calefactores",
+                                            "app/productos/otono/cap-94/mantas-electricas-cap94",
+                                            "app/productos/otono/cap-94/deshumidificadores-cap94"
+                                        ]
+                                    },
+                                    {
+                                        "group": "95 — Juguetes, juegos y deportes",
+                                        "icon": "gamepad",
+                                        "pages": [
+                                            "app/productos/otono/cap-95/overview",
+                                            "app/productos/otono/cap-95/pelotas-futbol-escolares",
+                                            "app/productos/otono/cap-95/colchonetas-gimnasia-escolar",
+                                            "app/productos/otono/cap-95/kits-educacion-fisica",
+                                            "app/productos/otono/cap-95/huevos-pascua-juguetes"
+                                        ]
+                                    },
+                                    {
+                                        "group": "96 — Manufacturas diversas",
+                                        "icon": "pen",
+                                        "pages": [
+                                            "app/productos/otono/cap-96/overview",
+                                            "app/productos/otono/cap-96/cartucheras-escolares-cap96",
+                                            "app/productos/otono/cap-96/loncheras-termicas-cap96",
+                                            "app/productos/otono/cap-96/sets-escritura-lapiceras"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dropdown": "Invierno (Jun–Ago)",
+                        "icon": "snowflake",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/productos/invierno/introduccion"
+                                ]
+                            },
+                            {
+                                "group": "Industrias Químicas",
+                                "pages": [
+                                    {
+                                        "group": "33 — Perfumería y cosmética",
+                                        "icon": "spray-can-sparkles",
+                                        "pages": [
+                                            "app/productos/invierno/cap-33/overview",
+                                            "app/productos/invierno/cap-33/mascarillas-kbeauty-invierno"
+                                        ]
+                                    },
+                                    {
+                                        "group": "34 — Jabones, velas y limpieza",
+                                        "icon": "soap",
+                                        "pages": [
+                                            "app/productos/invierno/cap-34/overview",
+                                            "app/productos/invierno/cap-34/kits-aromaterapia-regalo",
+                                            "app/productos/invierno/cap-34/pastillas-antihumedad"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Plástico y Caucho",
+                                "pages": [
+                                    {
+                                        "group": "39 — Plástico y sus manufacturas",
+                                        "icon": "box-open",
+                                        "pages": [
+                                            "app/productos/invierno/cap-39/overview",
+                                            "app/productos/invierno/cap-39/kits-slime-masas-modelar"
+                                        ]
+                                    },
+                                    {
+                                        "group": "40 — Caucho y sus manufacturas",
+                                        "icon": "circle",
+                                        "pages": [
+                                            "app/productos/invierno/cap-40/overview",
+                                            "app/productos/invierno/cap-40/bandas-resistencia-sets-premium",
+                                            "app/productos/invierno/cap-40/bolsas-agua-caliente-electricas"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cueros y Marroquinería",
+                                "pages": [
+                                    {
+                                        "group": "42 — Bolsos, carteras y viaje",
+                                        "icon": "bag-shopping",
+                                        "pages": [
+                                            "app/productos/invierno/cap-42/overview",
+                                            "app/productos/invierno/cap-42/guantes-cuero-pu-invierno",
+                                            "app/productos/invierno/cap-42/bolsos-viaje-duffle-invierno"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Madera y Cestería",
+                                "pages": [
+                                    {
+                                        "group": "44 — Madera y manufacturas",
+                                        "icon": "tree",
+                                        "pages": [
+                                            "app/productos/invierno/cap-44/overview",
+                                            "app/productos/invierno/cap-44/rompecabezas-3d-madera"
+                                        ]
+                                    },
+                                    {
+                                        "group": "46 — Cestería y espartería",
+                                        "icon": "basket-shopping",
+                                        "pages": [
+                                            "app/productos/invierno/cap-46/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Papel y Cartón",
+                                "pages": [
+                                    {
+                                        "group": "48 — Papel, cartón y manufacturas",
+                                        "icon": "scroll",
+                                        "pages": [
+                                            "app/productos/invierno/cap-48/overview",
+                                            "app/productos/invierno/cap-48/rompecabezas-carton-puzzles"
+                                        ]
+                                    },
+                                    {
+                                        "group": "49 — Productos editoriales y gráficos",
+                                        "icon": "book",
+                                        "pages": [
+                                            "app/productos/invierno/cap-49/overview",
+                                            "app/productos/invierno/cap-49/libros-actividades-colorear"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Textiles",
+                                "pages": [
+                                    {
+                                        "group": "56 — Guata, fieltro y no tejidos",
+                                        "icon": "mattress-pillow",
+                                        "pages": [
+                                            "app/productos/invierno/cap-56/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "57 — Alfombras y revestimientos",
+                                        "icon": "rug",
+                                        "pages": [
+                                            "app/productos/invierno/cap-57/overview",
+                                            "app/productos/invierno/cap-57/alfombras-faux-fur-piel-sintetica"
+                                        ]
+                                    },
+                                    {
+                                        "group": "61 — Ropa de punto",
+                                        "icon": "shirt",
+                                        "pages": [
+                                            "app/productos/invierno/cap-61/overview",
+                                            "app/productos/invierno/cap-61/camperas-puffer-inflables",
+                                            "app/productos/invierno/cap-61/sweaters-chalecos-lana",
+                                            "app/productos/invierno/cap-61/conjuntos-termicos-segunda-capa"
+                                        ]
+                                    },
+                                    {
+                                        "group": "62 — Ropa (excepto punto)",
+                                        "icon": "vest",
+                                        "pages": [
+                                            "app/productos/invierno/cap-62/overview",
+                                            "app/productos/invierno/cap-62/camperas-ski-nieve",
+                                            "app/productos/invierno/cap-62/pantalones-ski-nieve"
+                                        ]
+                                    },
+                                    {
+                                        "group": "63 — Textiles para el hogar",
+                                        "icon": "bed",
+                                        "pages": [
+                                            "app/productos/invierno/cap-63/overview",
+                                            "app/productos/invierno/cap-63/cortinas-blackout-termicas",
+                                            "app/productos/invierno/cap-63/edredones-duvets-pluma-sintetica",
+                                            "app/productos/invierno/cap-63/pasamontanas-balaclavas"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Calzado y Accesorios",
+                                "pages": [
+                                    {
+                                        "group": "64 — Calzado",
+                                        "icon": "shoe-prints",
+                                        "pages": [
+                                            "app/productos/invierno/cap-64/overview",
+                                            "app/productos/invierno/cap-64/botas-nieve-impermeables"
+                                        ]
+                                    },
+                                    {
+                                        "group": "65 — Sombreros y tocados",
+                                        "icon": "hat-cowboy",
+                                        "pages": [
+                                            "app/productos/invierno/cap-65/overview",
+                                            "app/productos/invierno/cap-65/orejeras-termicas",
+                                            "app/productos/invierno/cap-65/gorros-ski-tecnicos"
+                                        ]
+                                    },
+                                    {
+                                        "group": "66 — Paraguas y sombrillas",
+                                        "icon": "umbrella",
+                                        "pages": [
+                                            "app/productos/invierno/cap-66/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "67 — Flores artificiales y plumas",
+                                        "icon": "feather",
+                                        "pages": [
+                                            "app/productos/invierno/cap-67/overview",
+                                            "app/productos/invierno/cap-67/guirnaldas-luces-led-fairy"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cerámica y Vidrio",
+                                "pages": [
+                                    {
+                                        "group": "69 — Productos cerámicos",
+                                        "icon": "mug-hot",
+                                        "pages": [
+                                            "app/productos/invierno/cap-69/overview",
+                                            "app/productos/invierno/cap-69/cazuelas-ceramica-cocina-lenta"
+                                        ]
+                                    },
+                                    {
+                                        "group": "70 — Vidrio y sus manufacturas",
+                                        "icon": "wine-glass",
+                                        "pages": [
+                                            "app/productos/invierno/cap-70/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Bisutería",
+                                "pages": [
+                                    {
+                                        "group": "71 — Bisutería y piedras preciosas",
+                                        "icon": "gem",
+                                        "pages": [
+                                            "app/productos/invierno/cap-71/overview",
+                                            "app/productos/invierno/cap-71/bijouterie-masculina-regalo"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Metales Comunes",
+                                "pages": [
+                                    {
+                                        "group": "73 — Manufacturas de hierro/acero",
+                                        "icon": "toolbox",
+                                        "pages": [
+                                            "app/productos/invierno/cap-73/overview",
+                                            "app/productos/invierno/cap-73/ollas-hierro-fundido"
+                                        ]
+                                    },
+                                    {
+                                        "group": "76 — Aluminio y manufacturas",
+                                        "icon": "cubes",
+                                        "pages": [
+                                            "app/productos/invierno/cap-76/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "82 — Herramientas y cuchillería",
+                                        "icon": "screwdriver-wrench",
+                                        "pages": [
+                                            "app/productos/invierno/cap-82/overview",
+                                            "app/productos/invierno/cap-82/sets-herramientas-maletin-regalo"
+                                        ]
+                                    },
+                                    {
+                                        "group": "83 — Manufacturas diversas de metal",
+                                        "icon": "lock",
+                                        "pages": [
+                                            "app/productos/invierno/cap-83/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Máquinas y Electrónica",
+                                "pages": [
+                                    {
+                                        "group": "84 — Máquinas y aparatos mecánicos",
+                                        "icon": "gears",
+                                        "pages": [
+                                            "app/productos/invierno/cap-84/overview",
+                                            "app/productos/invierno/cap-84/bicicletas-fijas-spinning",
+                                            "app/productos/invierno/cap-84/amasadoras-planetarias",
+                                            "app/productos/invierno/cap-84/cafeteras-express-hogarenas",
+                                            "app/productos/invierno/cap-84/soperas-ollas-electricas-slow-cooker"
+                                        ]
+                                    },
+                                    {
+                                        "group": "85 — Electrónica y material eléctrico",
+                                        "icon": "microchip",
+                                        "pages": [
+                                            "app/productos/invierno/cap-85/overview",
+                                            "app/productos/invierno/cap-85/proyectores-portatiles-led",
+                                            "app/productos/invierno/cap-85/caminadoras-electricas-plegables",
+                                            "app/productos/invierno/cap-85/consolas-retro-mini",
+                                            "app/productos/invierno/cap-85/tablets-infantiles-educativas",
+                                            "app/productos/invierno/cap-85/auriculares-gaming-infantiles"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Transporte",
+                                "pages": [
+                                    {
+                                        "group": "87 — Vehículos, partes y accesorios",
+                                        "icon": "car",
+                                        "pages": [
+                                            "app/productos/invierno/cap-87/overview",
+                                            "app/productos/invierno/cap-87/cadenas-nieve-auto",
+                                            "app/productos/invierno/cap-87/fundas-volante-termicas"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Óptica, Relojería y Música",
+                                "pages": [
+                                    {
+                                        "group": "90 — Óptica, precisión e instrumentos médicos",
+                                        "icon": "glasses",
+                                        "pages": [
+                                            "app/productos/invierno/cap-90/overview",
+                                            "app/productos/invierno/cap-90/antiparras-ski-snowboard"
+                                        ]
+                                    },
+                                    {
+                                        "group": "91 — Relojería",
+                                        "icon": "clock",
+                                        "pages": [
+                                            "app/productos/invierno/cap-91/overview",
+                                            "app/productos/invierno/cap-91/relojes-masculinos-regalo-padre"
+                                        ]
+                                    },
+                                    {
+                                        "group": "92 — Instrumentos musicales",
+                                        "icon": "guitar",
+                                        "pages": [
+                                            "app/productos/invierno/cap-92/overview",
+                                            "app/productos/invierno/cap-92/guitarras-acusticas-principiantes"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Mercancías Diversas",
+                                "pages": [
+                                    {
+                                        "group": "94 — Muebles e iluminación",
+                                        "icon": "couch",
+                                        "pages": [
+                                            "app/productos/invierno/cap-94/overview",
+                                            "app/productos/invierno/cap-94/luces-nocturnas-led-infantiles"
+                                        ]
+                                    },
+                                    {
+                                        "group": "95 — Juguetes, juegos y deportes",
+                                        "icon": "gamepad",
+                                        "pages": [
+                                            "app/productos/invierno/cap-95/overview",
+                                            "app/productos/invierno/cap-95/peluches-coleccionables-blind-box",
+                                            "app/productos/invierno/cap-95/peluches-grandes-clasicos",
+                                            "app/productos/invierno/cap-95/bloques-construccion-avanzados",
+                                            "app/productos/invierno/cap-95/juegos-mesa-familiares-invierno",
+                                            "app/productos/invierno/cap-95/figuras-accion-trending",
+                                            "app/productos/invierno/cap-95/equipamiento-ski-ninos",
+                                            "app/productos/invierno/cap-95/autos-control-remoto-rc",
+                                            "app/productos/invierno/cap-95/munecas-cry-babies-reborn",
+                                            "app/productos/invierno/cap-95/microfonos-karaoke-infantiles",
+                                            "app/productos/invierno/cap-95/kits-ciencia-stem",
+                                            "app/productos/invierno/cap-95/triciclos-bicicletas-sin-pedales",
+                                            "app/productos/invierno/cap-95/casas-munecas-muebles-miniatura"
+                                        ]
+                                    },
+                                    {
+                                        "group": "96 — Manufacturas diversas",
+                                        "icon": "pen",
+                                        "pages": [
+                                            "app/productos/invierno/cap-96/overview",
+                                            "app/productos/invierno/cap-96/kits-arte-manualidades-ninos",
+                                            "app/productos/invierno/cap-96/sets-pintura-lienzo-ninos"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dropdown": "Primavera (Sep–Nov)",
+                        "icon": "seedling",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/productos/primavera/introduccion"
+                                ]
+                            },
+                            {
+                                "group": "Industrias Químicas",
+                                "pages": [
+                                    {
+                                        "group": "33 — Perfumería y cosmética",
+                                        "icon": "spray-can-sparkles",
+                                        "pages": [
+                                            "app/productos/primavera/cap-33/overview",
+                                            "app/productos/primavera/cap-33/sets-maquillaje-regalo-madre",
+                                            "app/productos/primavera/cap-33/perfumes-importados-regalo-madre"
+                                        ]
+                                    },
+                                    {
+                                        "group": "34 — Jabones, velas y limpieza",
+                                        "icon": "soap",
+                                        "pages": [
+                                            "app/productos/primavera/cap-34/overview",
+                                            "app/productos/primavera/cap-34/sets-spa-jabones-regalo-madre"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Plástico y Caucho",
+                                "pages": [
+                                    {
+                                        "group": "39 — Plástico y sus manufacturas",
+                                        "icon": "box-open",
+                                        "pages": [
+                                            "app/productos/primavera/cap-39/overview",
+                                            "app/productos/primavera/cap-39/macetas-autorriego-jardineras",
+                                            "app/productos/primavera/cap-39/composteras-domesticas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "40 — Caucho y sus manufacturas",
+                                        "icon": "circle",
+                                        "pages": [
+                                            "app/productos/primavera/cap-40/overview",
+                                            "app/productos/primavera/cap-40/mangueras-riego-sistemas-goteo"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cueros y Marroquinería",
+                                "pages": [
+                                    {
+                                        "group": "42 — Bolsos, carteras y viaje",
+                                        "icon": "bag-shopping",
+                                        "pages": [
+                                            "app/productos/primavera/cap-42/overview",
+                                            "app/productos/primavera/cap-42/carteras-bolsos-regalo-madre"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Madera y Cestería",
+                                "pages": [
+                                    {
+                                        "group": "44 — Madera y manufacturas",
+                                        "icon": "tree",
+                                        "pages": [
+                                            "app/productos/primavera/cap-44/overview",
+                                            "app/productos/primavera/cap-44/maceteros-soportes-madera-plantas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "46 — Cestería y espartería",
+                                        "icon": "basket-shopping",
+                                        "pages": [
+                                            "app/productos/primavera/cap-46/overview",
+                                            "app/productos/primavera/cap-46/canastas-mimbre-decoracion-jardin"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Papel y Cartón",
+                                "pages": [
+                                    {
+                                        "group": "48 — Papel, cartón y manufacturas",
+                                        "icon": "scroll",
+                                        "pages": [
+                                            "app/productos/primavera/cap-48/overview",
+                                            "app/productos/primavera/cap-48/packaging-cajas-regalo-navidenas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "49 — Productos editoriales y gráficos",
+                                        "icon": "book",
+                                        "pages": [
+                                            "app/productos/primavera/cap-49/overview",
+                                            "app/productos/primavera/cap-49/planners-agendas-2026"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Textiles",
+                                "pages": [
+                                    {
+                                        "group": "56 — Guata, fieltro y no tejidos",
+                                        "icon": "mattress-pillow",
+                                        "pages": [
+                                            "app/productos/primavera/cap-56/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "57 — Alfombras y revestimientos",
+                                        "icon": "rug",
+                                        "pages": [
+                                            "app/productos/primavera/cap-57/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "61 — Ropa de punto",
+                                        "icon": "shirt",
+                                        "pages": [
+                                            "app/productos/primavera/cap-61/overview",
+                                            "app/productos/primavera/cap-61/packs-remeras-basicas",
+                                            "app/productos/primavera/cap-61/ropa-deportiva-mujer-regalo"
+                                        ]
+                                    },
+                                    {
+                                        "group": "62 — Ropa (excepto punto)",
+                                        "icon": "vest",
+                                        "pages": [
+                                            "app/productos/primavera/cap-62/overview",
+                                            "app/productos/primavera/cap-62/disfraces-halloween"
+                                        ]
+                                    },
+                                    {
+                                        "group": "63 — Textiles para el hogar",
+                                        "icon": "bed",
+                                        "pages": [
+                                            "app/productos/primavera/cap-63/overview",
+                                            "app/productos/primavera/cap-63/manteles-navidad"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Calzado y Accesorios",
+                                "pages": [
+                                    {
+                                        "group": "64 — Calzado",
+                                        "icon": "shoe-prints",
+                                        "pages": [
+                                            "app/productos/primavera/cap-64/overview",
+                                            "app/productos/primavera/cap-64/zapatillas-deportivas-running"
+                                        ]
+                                    },
+                                    {
+                                        "group": "65 — Sombreros y tocados",
+                                        "icon": "hat-cowboy",
+                                        "pages": [
+                                            "app/productos/primavera/cap-65/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "66 — Paraguas y sombrillas",
+                                        "icon": "umbrella",
+                                        "pages": [
+                                            "app/productos/primavera/cap-66/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "67 — Flores artificiales y plumas",
+                                        "icon": "feather",
+                                        "pages": [
+                                            "app/productos/primavera/cap-67/overview",
+                                            "app/productos/primavera/cap-67/decoracion-navidena-guirnaldas-coronas"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Cerámica y Vidrio",
+                                "pages": [
+                                    {
+                                        "group": "69 — Productos cerámicos",
+                                        "icon": "mug-hot",
+                                        "pages": [
+                                            "app/productos/primavera/cap-69/overview",
+                                            "app/productos/primavera/cap-69/macetas-ceramicas-decorativas"
+                                        ]
+                                    },
+                                    {
+                                        "group": "70 — Vidrio y sus manufacturas",
+                                        "icon": "wine-glass",
+                                        "pages": [
+                                            "app/productos/primavera/cap-70/overview",
+                                            "app/productos/primavera/cap-70/copas-cristal-brindis-navidad"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Bisutería",
+                                "pages": [
+                                    {
+                                        "group": "71 — Bisutería y piedras preciosas",
+                                        "icon": "gem",
+                                        "pages": [
+                                            "app/productos/primavera/cap-71/overview",
+                                            "app/productos/primavera/cap-71/bijouterie-femenina-regalo-madre",
+                                            "app/productos/primavera/cap-71/accesorios-pelo-premium"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Metales Comunes",
+                                "pages": [
+                                    {
+                                        "group": "73 — Manufacturas de hierro/acero",
+                                        "icon": "toolbox",
+                                        "pages": [
+                                            "app/productos/primavera/cap-73/overview",
+                                            "app/productos/primavera/cap-73/soportes-metalicos-jardin"
+                                        ]
+                                    },
+                                    {
+                                        "group": "76 — Aluminio y manufacturas",
+                                        "icon": "cubes",
+                                        "pages": [
+                                            "app/productos/primavera/cap-76/overview"
+                                        ]
+                                    },
+                                    {
+                                        "group": "82 — Herramientas y cuchillería",
+                                        "icon": "screwdriver-wrench",
+                                        "pages": [
+                                            "app/productos/primavera/cap-82/overview",
+                                            "app/productos/primavera/cap-82/herramientas-jardineria-manual"
+                                        ]
+                                    },
+                                    {
+                                        "group": "83 — Manufacturas diversas de metal",
+                                        "icon": "lock",
+                                        "pages": [
+                                            "app/productos/primavera/cap-83/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Máquinas y Electrónica",
+                                "pages": [
+                                    {
+                                        "group": "84 — Máquinas y aparatos mecánicos",
+                                        "icon": "gears",
+                                        "pages": [
+                                            "app/productos/primavera/cap-84/overview",
+                                            "app/productos/primavera/cap-84/aires-acondicionados-split",
+                                            "app/productos/primavera/cap-84/desmalezadoras-electricas-bateria",
+                                            "app/productos/primavera/cap-84/planchitas-pelo-rizadoras"
+                                        ]
+                                    },
+                                    {
+                                        "group": "85 — Electrónica y material eléctrico",
+                                        "icon": "microchip",
+                                        "pages": [
+                                            "app/productos/primavera/cap-85/overview",
+                                            "app/productos/primavera/cap-85/smartwatches-regalo-madre",
+                                            "app/productos/primavera/cap-85/luces-led-arbol-navidad",
+                                            "app/productos/primavera/cap-85/dispositivos-streaming"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Transporte",
+                                "pages": [
+                                    {
+                                        "group": "87 — Vehículos, partes y accesorios",
+                                        "icon": "car",
+                                        "pages": [
+                                            "app/productos/primavera/cap-87/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Óptica, Relojería y Música",
+                                "pages": [
+                                    {
+                                        "group": "90 — Óptica, precisión e instrumentos médicos",
+                                        "icon": "glasses",
+                                        "pages": [
+                                            "app/productos/primavera/cap-90/overview",
+                                            "app/productos/primavera/cap-90/anteojos-sol-tendencia"
+                                        ]
+                                    },
+                                    {
+                                        "group": "91 — Relojería",
+                                        "icon": "clock",
+                                        "pages": [
+                                            "app/productos/primavera/cap-91/overview",
+                                            "app/productos/primavera/cap-91/relojes-regalo-madre"
+                                        ]
+                                    },
+                                    {
+                                        "group": "92 — Instrumentos musicales",
+                                        "icon": "guitar",
+                                        "pages": [
+                                            "app/productos/primavera/cap-92/overview"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Mercancías Diversas",
+                                "pages": [
+                                    {
+                                        "group": "94 — Muebles e iluminación",
+                                        "icon": "couch",
+                                        "pages": [
+                                            "app/productos/primavera/cap-94/overview",
+                                            "app/productos/primavera/cap-94/arboles-navidad-artificiales",
+                                            "app/productos/primavera/cap-94/colchones-sommiers-cybermonday",
+                                            "app/productos/primavera/cap-94/muebles-exterior-jardin"
+                                        ]
+                                    },
+                                    {
+                                        "group": "95 — Juguetes, juegos y deportes",
+                                        "icon": "gamepad",
+                                        "pages": [
+                                            "app/productos/primavera/cap-95/overview",
+                                            "app/productos/primavera/cap-95/juguetes-exterior-jardin",
+                                            "app/productos/primavera/cap-95/pelotas-redes-voley-futbol-tenis",
+                                            "app/productos/primavera/cap-95/camas-elasticas-trampolines",
+                                            "app/productos/primavera/cap-95/juguetes-cybermonday-navidad"
+                                        ]
+                                    },
+                                    {
+                                        "group": "96 — Manufacturas diversas",
+                                        "icon": "pen",
+                                        "pages": [
+                                            "app/productos/primavera/cap-96/overview",
+                                            "app/productos/primavera/cap-96/sets-brochas-maquillaje-regalo-madre",
+                                            "app/productos/primavera/cap-96/adornos-arbol-navidad-handmade"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "seo": {
+        "metatags": {
+            "robots": "noindex, nofollow"
+        }
+    }
+}
