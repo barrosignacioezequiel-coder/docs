@@ -58,8 +58,7 @@
                                             "app/productos/atemporales/cap-34/overview",
                                             "app/productos/atemporales/cap-34/velas-aromaticas",
                                             "app/productos/atemporales/cap-34/velas-led",
-                                            "app/productos/atemporales/cap-34/barras-cera-sellado",
-                                            "app/productos/atemporales/cap-34/esponjas-melamina-limpieza"
+                                            "app/productos/atemporales/cap-34/barras-cera-sellado"
                                         ]
                                     }
                                 ]
@@ -77,7 +76,9 @@
                                             "app/productos/atemporales/cap-39/fundas-celular",
                                             "app/productos/atemporales/cap-39/descartables-gastronomia",
                                             "app/productos/atemporales/cap-39/tappers-hermeticos",
-                                            "app/productos/atemporales/cap-39/organizadores-acrilico"
+                                            "app/productos/atemporales/cap-39/organizadores-acrilico",
+                                            "app/productos/atemporales/cap-39/esponjas-melamina-limpieza",
+                                            "app/productos/atemporales/cap-39/fundas-celulares"
                                         ]
                                     },
                                     {
@@ -172,7 +173,6 @@
                                         "icon": "mattress-pillow",
                                         "pages": [
                                             "app/productos/atemporales/cap-56/overview",
-                                            "app/productos/atemporales/cap-56/panos-microfibra",
                                             "app/productos/atemporales/cap-56/fieltro-manualidades",
                                             "app/productos/atemporales/cap-56/friselina-tnt",
                                             "app/productos/atemporales/cap-56/cuerdas-sogas"
@@ -222,7 +222,8 @@
                                             "app/productos/atemporales/cap-63/cortinas",
                                             "app/productos/atemporales/cap-63/fundas-almohada",
                                             "app/productos/atemporales/cap-63/bolsas-reutilizables",
-                                            "app/productos/atemporales/cap-63/manteles"
+                                            "app/productos/atemporales/cap-63/manteles",
+                                            "app/productos/atemporales/cap-63/panos-microfibra"
                                         ]
                                     }
                                 ]
@@ -379,7 +380,8 @@
                                             "app/productos/atemporales/cap-84/cafeteras",
                                             "app/productos/atemporales/cap-84/taladros-atornilladores",
                                             "app/productos/atemporales/cap-84/amoladoras",
-                                            "app/productos/atemporales/cap-84/balanzas-digitales"
+                                            "app/productos/atemporales/cap-84/balanzas-digitales",
+                                            "app/productos/atemporales/cap-84/soportes-celular"
                                         ]
                                     },
                                     {
@@ -392,11 +394,9 @@
                                             "app/productos/atemporales/cap-85/smartwatches",
                                             "app/productos/atemporales/cap-85/cargadores-cables-usb",
                                             "app/productos/atemporales/cap-85/power-banks",
-                                            "app/productos/atemporales/cap-85/fundas-celulares",
                                             "app/productos/atemporales/cap-85/camaras-seguridad-wifi",
                                             "app/productos/atemporales/cap-85/iluminacion-led",
                                             "app/productos/atemporales/cap-85/dispositivos-smart-home",
-                                            "app/productos/atemporales/cap-85/soportes-celular",
                                             "app/productos/atemporales/cap-85/aros-luz-ring-light",
                                             "app/productos/atemporales/cap-85/cortadoras-pelo"
                                         ]
@@ -535,8 +535,15 @@
                                         "icon": "soap",
                                         "pages": [
                                             "app/productos/verano/cap-34/overview",
-                                            "app/productos/verano/cap-34/velas-citronella",
-                                            "app/productos/verano/cap-34/espirales-antimosquitos"
+                                            "app/productos/verano/cap-34/velas-citronella"
+                                        ]
+                                    },
+                                    {
+                                        "group": "38 — Productos químicos diversos",
+                                        "icon": "flask",
+                                        "pages": [
+                                            "app/productos/verano/cap-38/overview",
+                                            "app/productos/verano/cap-38/espirales-antimosquitos"
                                         ]
                                     }
                                 ]
@@ -560,11 +567,7 @@
                                         "group": "40 — Caucho y sus manufacturas",
                                         "icon": "circle",
                                         "pages": [
-                                            "app/productos/verano/cap-40/overview",
-                                            "app/productos/verano/cap-40/colchonetas-inflables",
-                                            "app/productos/verano/cap-40/flotadores-inflables",
-                                            "app/productos/verano/cap-40/pelotas-playa",
-                                            "app/productos/verano/cap-40/antiparras-natacion"
+                                            "app/productos/verano/cap-40/overview"
                                         ]
                                     }
                                 ]
@@ -849,7 +852,8 @@
                                             "app/productos/verano/cap-90/overview",
                                             "app/productos/verano/cap-90/antiparras-natacion-opticas",
                                             "app/productos/verano/cap-90/camaras-acuaticas",
-                                            "app/productos/verano/cap-90/snorkels-mascaras-buceo"
+                                            "app/productos/verano/cap-90/snorkels-mascaras-buceo",
+                                            "app/productos/verano/cap-90/antiparras-natacion"
                                         ]
                                     },
                                     {
@@ -900,7 +904,10 @@
                                             "app/productos/verano/cap-95/patinetas-skateboards",
                                             "app/productos/verano/cap-95/rollers-patines",
                                             "app/productos/verano/cap-95/equipamiento-natacion",
-                                            "app/productos/verano/cap-95/kayaks-sup-inflables"
+                                            "app/productos/verano/cap-95/kayaks-sup-inflables",
+                                            "app/productos/verano/cap-95/colchonetas-inflables",
+                                            "app/productos/verano/cap-95/flotadores-inflables",
+                                            "app/productos/verano/cap-95/pelotas-playa"
                                         ]
                                     },
                                     {
@@ -967,8 +974,7 @@
                                         "group": "40 — Caucho y sus manufacturas",
                                         "icon": "circle",
                                         "pages": [
-                                            "app/productos/otono/cap-40/overview",
-                                            "app/productos/otono/cap-40/botas-lluvia-caucho"
+                                            "app/productos/otono/cap-40/overview"
                                         ]
                                     }
                                 ]
@@ -1093,7 +1099,8 @@
                                         "pages": [
                                             "app/productos/otono/cap-64/overview",
                                             "app/productos/otono/cap-64/pantuflas-invierno",
-                                            "app/productos/otono/cap-64/botines-botas-otono"
+                                            "app/productos/otono/cap-64/botines-botas-otono",
+                                            "app/productos/otono/cap-64/botas-lluvia-caucho"
                                         ]
                                     },
                                     {
@@ -1206,8 +1213,6 @@
                                         "icon": "gears",
                                         "pages": [
                                             "app/productos/otono/cap-84/overview",
-                                            "app/productos/otono/cap-84/calefactores-electricos-convectores",
-                                            "app/productos/otono/cap-84/calefactores-halogenos-cuarzo",
                                             "app/productos/otono/cap-84/deshumidificadores-portatiles",
                                             "app/productos/otono/cap-84/humidificadores-ultrasonicos"
                                         ]
@@ -1217,10 +1222,11 @@
                                         "icon": "microchip",
                                         "pages": [
                                             "app/productos/otono/cap-85/overview",
-                                            "app/productos/otono/cap-85/lamparas-led-escritorio",
                                             "app/productos/otono/cap-85/mantas-electricas-termicas",
                                             "app/productos/otono/cap-85/toalleros-electricos",
-                                            "app/productos/otono/cap-85/lamparas-sal-himalaya"
+                                            "app/productos/otono/cap-85/lamparas-sal-himalaya",
+                                            "app/productos/otono/cap-85/calefactores-electricos-convectores",
+                                            "app/productos/otono/cap-85/calefactores-halogenos-cuarzo"
                                         ]
                                     }
                                 ]
@@ -1278,7 +1284,7 @@
                                             "app/productos/otono/cap-94/overview",
                                             "app/productos/otono/cap-94/paneles-calefactores",
                                             "app/productos/otono/cap-94/mantas-electricas-cap94",
-                                            "app/productos/otono/cap-94/deshumidificadores-cap94"
+                                            "app/productos/otono/cap-94/lamparas-led-escritorio"
                                         ]
                                     },
                                     {
@@ -1578,7 +1584,6 @@
                                         "icon": "gears",
                                         "pages": [
                                             "app/productos/invierno/cap-84/overview",
-                                            "app/productos/invierno/cap-84/bicicletas-fijas-spinning",
                                             "app/productos/invierno/cap-84/amasadoras-planetarias",
                                             "app/productos/invierno/cap-84/cafeteras-express-hogarenas",
                                             "app/productos/invierno/cap-84/soperas-ollas-electricas-slow-cooker"
@@ -1590,8 +1595,6 @@
                                         "pages": [
                                             "app/productos/invierno/cap-85/overview",
                                             "app/productos/invierno/cap-85/proyectores-portatiles-led",
-                                            "app/productos/invierno/cap-85/caminadoras-electricas-plegables",
-                                            "app/productos/invierno/cap-85/consolas-retro-mini",
                                             "app/productos/invierno/cap-85/tablets-infantiles-educativas",
                                             "app/productos/invierno/cap-85/auriculares-gaming-infantiles"
                                         ]
@@ -1668,7 +1671,10 @@
                                             "app/productos/invierno/cap-95/microfonos-karaoke-infantiles",
                                             "app/productos/invierno/cap-95/kits-ciencia-stem",
                                             "app/productos/invierno/cap-95/triciclos-bicicletas-sin-pedales",
-                                            "app/productos/invierno/cap-95/casas-munecas-muebles-miniatura"
+                                            "app/productos/invierno/cap-95/casas-munecas-muebles-miniatura",
+                                            "app/productos/invierno/cap-95/bicicletas-fijas-spinning",
+                                            "app/productos/invierno/cap-95/caminadoras-electricas-plegables",
+                                            "app/productos/invierno/cap-95/consolas-retro-mini"
                                         ]
                                     },
                                     {
@@ -2016,7 +2022,6 @@
                                         "icon": "couch",
                                         "pages": [
                                             "app/productos/primavera/cap-94/overview",
-                                            "app/productos/primavera/cap-94/arboles-navidad-artificiales",
                                             "app/productos/primavera/cap-94/colchones-sommiers-cybermonday",
                                             "app/productos/primavera/cap-94/muebles-exterior-jardin"
                                         ]
@@ -2029,7 +2034,9 @@
                                             "app/productos/primavera/cap-95/juguetes-exterior-jardin",
                                             "app/productos/primavera/cap-95/pelotas-redes-voley-futbol-tenis",
                                             "app/productos/primavera/cap-95/camas-elasticas-trampolines",
-                                            "app/productos/primavera/cap-95/juguetes-cybermonday-navidad"
+                                            "app/productos/primavera/cap-95/juguetes-cybermonday-navidad",
+                                            "app/productos/primavera/cap-95/arboles-navidad-artificiales",
+                                            "app/productos/primavera/cap-95/adornos-arbol-navidad-handmade"
                                         ]
                                     },
                                     {
@@ -2037,8 +2044,7 @@
                                         "icon": "pen",
                                         "pages": [
                                             "app/productos/primavera/cap-96/overview",
-                                            "app/productos/primavera/cap-96/sets-brochas-maquillaje-regalo-madre",
-                                            "app/productos/primavera/cap-96/adornos-arbol-navidad-handmade"
+                                            "app/productos/primavera/cap-96/sets-brochas-maquillaje-regalo-madre"
                                         ]
                                     }
                                 ]
