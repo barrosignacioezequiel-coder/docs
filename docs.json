@@ -12,6 +12,200 @@
     "navigation": {
         "tabs": [
             {
+                "tab": "Paso 1 — Argentina",
+                "dropdowns": [
+                    {
+                        "dropdown": "Empezar de Cero",
+                        "icon": "rocket",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/paso1-argentina/empezar-de-cero/introduccion",
+                                    "app/paso1-argentina/empezar-de-cero/por-que-fabricas-argentinas",
+                                    "app/paso1-argentina/empezar-de-cero/paso1-vs-paso2"
+                                ]
+                            },
+                            {
+                                "group": "Requisitos Legales",
+                                "icon": "scale-balanced",
+                                "pages": [
+                                    "app/paso1-argentina/empezar-de-cero/monotributo-vs-responsable-inscripto",
+                                    "app/paso1-argentina/empezar-de-cero/inscripcion-fiscal",
+                                    "app/paso1-argentina/empezar-de-cero/facturacion-basica",
+                                    "app/paso1-argentina/empezar-de-cero/habilitaciones-comerciales"
+                                ]
+                            },
+                            {
+                                "group": "Infraestructura Comercial",
+                                "icon": "store",
+                                "pages": [
+                                    "app/paso1-argentina/empezar-de-cero/ecommerce-mercadolibre",
+                                    "app/paso1-argentina/empezar-de-cero/tienda-online",
+                                    "app/paso1-argentina/empezar-de-cero/logistica-envios-locales",
+                                    "app/paso1-argentina/empezar-de-cero/contador-contabilidad",
+                                    "app/paso1-argentina/empezar-de-cero/capital-inicial"
+                                ]
+                            },
+                            {
+                                "group": "Modelo de Negocio",
+                                "icon": "money-bill",
+                                "pages": [
+                                    "app/paso1-argentina/empezar-de-cero/comprar-revender-margen",
+                                    "app/paso1-argentina/empezar-de-cero/canales-venta"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dropdown": "Encontrar Fábricas",
+                        "icon": "magnifying-glass",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/paso1-argentina/encontrar-fabricas/introduccion",
+                                    "app/paso1-argentina/encontrar-fabricas/estrategia-busqueda"
+                                ]
+                            },
+                            {
+                                "group": "Registros Oficiales",
+                                "icon": "landmark",
+                                "pages": [
+                                    "app/paso1-argentina/encontrar-fabricas/rin-registro-industrial",
+                                    "app/paso1-argentina/encontrar-fabricas/rai-caba",
+                                    "app/paso1-argentina/encontrar-fabricas/rump-matriz-productiva",
+                                    "app/paso1-argentina/encontrar-fabricas/inti-certificaciones",
+                                    "app/paso1-argentina/encontrar-fabricas/inpi-marcas-patentes",
+                                    "app/paso1-argentina/encontrar-fabricas/otros-registros"
+                                ]
+                            },
+                            {
+                                "group": "Cámaras y Asociaciones",
+                                "icon": "building",
+                                "pages": [
+                                    "app/paso1-argentina/encontrar-fabricas/uia-came-grandes",
+                                    "app/paso1-argentina/encontrar-fabricas/camaras-textiles",
+                                    "app/paso1-argentina/encontrar-fabricas/camaras-alimentos",
+                                    "app/paso1-argentina/encontrar-fabricas/camaras-construccion-quimica",
+                                    "app/paso1-argentina/encontrar-fabricas/camaras-metalurgia-plasticos",
+                                    "app/paso1-argentina/encontrar-fabricas/otras-camaras"
+                                ]
+                            },
+                            {
+                                "group": "Directorios Industriales",
+                                "icon": "book",
+                                "pages": [
+                                    "app/paso1-argentina/encontrar-fabricas/guia-industrial-argentina",
+                                    "app/paso1-argentina/encontrar-fabricas/argentina-tradenet",
+                                    "app/paso1-argentina/encontrar-fabricas/cluster-map-idep",
+                                    "app/paso1-argentina/encontrar-fabricas/otros-directorios"
+                                ]
+                            },
+                            {
+                                "group": "Ferias Industriales",
+                                "icon": "calendar",
+                                "pages": [
+                                    "app/paso1-argentina/encontrar-fabricas/ferias-principales",
+                                    "app/paso1-argentina/encontrar-fabricas/calendario-ferias",
+                                    "app/paso1-argentina/encontrar-fabricas/como-aprovechar-feria"
+                                ]
+                            },
+                            {
+                                "group": "Plataformas Digitales",
+                                "icon": "globe",
+                                "pages": [
+                                    "app/paso1-argentina/encontrar-fabricas/mercadolibre-como-fuente",
+                                    "app/paso1-argentina/encontrar-fabricas/busqueda-google-estrategica",
+                                    "app/paso1-argentina/encontrar-fabricas/plataformas-b2b-mayoristas"
+                                ]
+                            },
+                            {
+                                "group": "Contactos Informales",
+                                "icon": "users",
+                                "pages": [
+                                    "app/paso1-argentina/encontrar-fabricas/rondas-negocios",
+                                    "app/paso1-argentina/encontrar-fabricas/parques-industriales",
+                                    "app/paso1-argentina/encontrar-fabricas/linkedin-redes",
+                                    "app/paso1-argentina/encontrar-fabricas/despachantes-contadores"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dropdown": "Evaluar y Negociar",
+                        "icon": "handshake",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/paso1-argentina/evaluar-negociar/introduccion"
+                                ]
+                            },
+                            {
+                                "group": "Evaluar Fábricas",
+                                "icon": "clipboard-check",
+                                "pages": [
+                                    "app/paso1-argentina/evaluar-negociar/verificar-legitimidad",
+                                    "app/paso1-argentina/evaluar-negociar/evaluar-capacidad-productiva",
+                                    "app/paso1-argentina/evaluar-negociar/evaluar-calidad-producto",
+                                    "app/paso1-argentina/evaluar-negociar/comparar-precios",
+                                    "app/paso1-argentina/evaluar-negociar/visitar-fabrica"
+                                ]
+                            },
+                            {
+                                "group": "Negociación",
+                                "icon": "comments",
+                                "pages": [
+                                    "app/paso1-argentina/evaluar-negociar/primera-reunion",
+                                    "app/paso1-argentina/evaluar-negociar/negociar-precios-condiciones",
+                                    "app/paso1-argentina/evaluar-negociar/condiciones-pago",
+                                    "app/paso1-argentina/evaluar-negociar/pedido-minimo"
+                                ]
+                            },
+                            {
+                                "group": "Operación Comercial",
+                                "icon": "cart-shopping",
+                                "pages": [
+                                    "app/paso1-argentina/evaluar-negociar/primera-compra",
+                                    "app/paso1-argentina/evaluar-negociar/control-calidad-recepcion",
+                                    "app/paso1-argentina/evaluar-negociar/relacion-largo-plazo",
+                                    "app/paso1-argentina/evaluar-negociar/escalar-volumen"
+                                ]
+                            },
+                            {
+                                "group": "Documentación",
+                                "icon": "file-contract",
+                                "pages": [
+                                    "app/paso1-argentina/evaluar-negociar/factura-compra",
+                                    "app/paso1-argentina/evaluar-negociar/remito-transporte",
+                                    "app/paso1-argentina/evaluar-negociar/contrato-proveedor",
+                                    "app/paso1-argentina/evaluar-negociar/registro-proveedores"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dropdown": "Oportunidades por Rubro",
+                        "icon": "chart-line",
+                        "groups": [
+                            {
+                                "group": "Introducción",
+                                "icon": "book-open",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/introduccion",
+                                    "app/paso1-argentina/oportunidades/como-elegir-rubro",
+                                    "app/paso1-argentina/oportunidades/criterios-evaluacion"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "tab": "Guía",
                 "groups": [
                     {

@@ -1,0 +1,159 @@
+---
+title: "Factura de compra — Qué pedir y por qué"
+description: "Todo sobre facturas de compra en Argentina: tipos (A, B, C), qué datos deben tener, cómo verificarlas en ARCA y por qué nunca comprar sin factura."
+icon: "file-invoice-dollar"
+---
+
+# Factura de compra — Qué pedir y por qué
+
+> La factura no es un papel más: es tu respaldo legal, tu comprobante de propiedad de la mercadería y tu herramienta fiscal. Sin factura, estás comprando a ciegas.
+
+## Por qué la factura es fundamental
+
+Cuando comprás mercadería a una fábrica, la factura cumple tres funciones críticas:
+
+| Función | Qué significa para vos |
+|---------|----------------------|
+| **Respaldo legal** | Prueba que pagaste por esa mercadería. Sin factura, no podés demostrar la compra |
+| **Comprobante fiscal** | ARCA sabe que compraste legalmente. Si sos RI, podés usar el IVA como crédito fiscal |
+| **Garantía** | Si el producto tiene defectos, la factura prueba la compra y habilita el reclamo |
+
+<Warning>
+Si la fábrica no te da factura, **NO compres**. Sin factura no tenés respaldo legal, no podés justificar tu mercadería ante ARCA, y si te paran en un control con mercadería sin documentación, pueden decomisarla. No hay descuento que justifique ese riesgo.
+</Warning>
+
+## Tipos de factura que vas a recibir
+
+El tipo de factura depende de la condición fiscal de la fábrica (emisor) y la tuya (receptor):
+
+<Tabs>
+  <Tab title="Factura A">
+    **Quién la emite:** Responsable Inscripto (la fábrica)
+    **A quién se emite:** Responsable Inscripto (vos)
+
+    **Característica clave:** Discrimina el IVA (aparece separado del precio neto).
+
+    **Para vos significa:**
+    - Ves el precio neto y el IVA por separado
+    - Podés usar ese IVA como **crédito fiscal** (lo descontás de tu IVA a pagar)
+    - Es la factura más conveniente si sos Responsable Inscripto
+
+    **Ejemplo:**
+    - Precio neto: ARS 100,000
+    - IVA 21%: ARS 21,000
+    - **Total: ARS 121,000** (pero recuperás los ARS 21,000 como crédito fiscal)
+  </Tab>
+  <Tab title="Factura B">
+    **Quién la emite:** Responsable Inscripto (la fábrica)
+    **A quién se emite:** Monotributista o Consumidor Final (vos)
+
+    **Característica clave:** NO discrimina el IVA (está incluido en el precio total).
+
+    **Para vos significa:**
+    - Ves solo el precio total con IVA incluido
+    - NO podés usar el IVA como crédito fiscal
+    - Es la factura que recibís si sos Monotributista
+
+    **Ejemplo:**
+    - **Total: ARS 121,000** (IVA incluido, no lo recuperás)
+  </Tab>
+  <Tab title="Factura C">
+    **Quién la emite:** Monotributista (la fábrica)
+    **A quién se emite:** Cualquier receptor
+
+    **Característica clave:** La emite una fábrica que es Monotributista. NO tiene IVA.
+
+    **Para vos significa:**
+    - El Monotributista no cobra IVA, así que no hay crédito fiscal
+    - Ojo: hay un límite de facturación anual para Monotributistas. Si la fábrica supera ese límite, debería ser RI
+    - Es menos común en fábricas grandes pero se ve en talleres y pequeños productores
+  </Tab>
+</Tabs>
+
+## Qué datos debe tener la factura
+
+Verificá que toda factura que recibas incluya estos datos obligatorios:
+
+| Dato | Dónde buscarlo | Para qué sirve |
+|------|---------------|----------------|
+| **CUIT del emisor** (fábrica) | Encabezado | Identificar legalmente a la fábrica |
+| **CUIT del receptor** (vos) | Encabezado | Que la factura esté a tu nombre |
+| **Razón social** | Encabezado | Nombre legal del emisor y receptor |
+| **Fecha de emisión** | Encabezado | Cuándo se hizo la operación |
+| **Número de CAE** | Pie de factura | Código de autorización de ARCA (valida la factura) |
+| **Vencimiento del CAE** | Pie de factura | Hasta cuándo es válido el código |
+| **Descripción de productos** | Cuerpo | Detalle de lo que compraste |
+| **Cantidad por producto** | Cuerpo | Cuántas unidades de cada uno |
+| **Precio unitario** | Cuerpo | Cuánto cuesta cada unidad |
+| **IVA** (solo Factura A) | Cuerpo | Impuesto discriminado |
+| **Total** | Pie | Monto total de la operación |
+
+## Cómo verificar una factura
+
+Toda factura electrónica tiene un **CAE** (Código de Autorización Electrónico) emitido por ARCA. Podés verificar que sea real:
+
+<Steps>
+  <Step title="Ingresá al portal de ARCA">
+    Entrá a la página de ARCA (ex AFIP): [https://www.arca.gob.ar](https://www.arca.gob.ar). No necesitás clave fiscal para esta consulta.
+  </Step>
+  <Step title="Buscá 'Constatación de Comprobantes'">
+    En el menú de servicios, buscá la opción de constatación o verificación de comprobantes.
+  </Step>
+  <Step title="Ingresá los datos de la factura">
+    Completá: CUIT del emisor, punto de venta, tipo de comprobante, número de comprobante, fecha y monto.
+  </Step>
+  <Step title="Verificá el resultado">
+    El sistema te dice si la factura es válida, fue autorizada por ARCA y el CAE coincide. Si dice "no encontrada" o los datos no coinciden, la factura puede ser trucha.
+  </Step>
+</Steps>
+
+<Tip>
+Guardá **TODAS** las facturas ordenadas por fecha y proveedor, tanto en formato digital (PDF) como en papel si te las dan impresas. Tu contador las va a necesitar para la liquidación de impuestos. Una carpeta en Google Drive o Dropbox organizada por mes es suficiente para empezar.
+</Tip>
+
+## IVA: impacto según tu condición fiscal
+
+La diferencia más importante entre ser Monotributista y Responsable Inscripto en relación a las facturas de compra:
+
+| Situación | Tipo de factura que recibís | IVA | Impacto |
+|-----------|---------------------------|-----|---------|
+| Vos RI + Fábrica RI | Factura A | Discriminado | Usás el IVA como crédito fiscal (lo recuperás) |
+| Vos Monotributo + Fábrica RI | Factura B | Incluido | NO recuperás el IVA, es un costo más |
+| Vos (cualquiera) + Fábrica Monotributo | Factura C | No aplica | No hay IVA, pero tampoco crédito fiscal |
+
+<Note>
+Si tus compras mensuales superan los ARS 500,000 - 1,000,000, la diferencia entre recuperar el IVA (como RI) y no recuperarlo (como Monotributista) es **significativa**. Consultá con tu contador si te conviene pasar a Responsable Inscripto.
+</Note>
+
+## Factura electrónica: lo que tenés que saber
+
+Desde hace años, todas las facturas en Argentina son electrónicas. Esto significa:
+
+- La fábrica genera la factura a través del sistema de ARCA
+- ARCA le asigna un CAE que valida el comprobante
+- Te la envían por email o te la entregan impresa (pero el original es digital)
+- Es la única versión legal del comprobante
+
+**No aceptes:**
+- Facturas manuscritas (ya no son válidas para la mayoría de los contribuyentes)
+- "Presupuestos" o "remitos" como reemplazo de factura
+- Facturas sin CAE
+- Facturas con datos incorrectos (tu CUIT mal, montos que no coinciden)
+
+## Errores frecuentes con facturas
+
+<Accordion title="Aceptar mercadería sin factura para pagar menos">
+La fábrica te dice "sin factura te hago 15% menos". Parece buen negocio, pero: no podés justificar la mercadería ante ARCA, no tenés respaldo si hay defectos, y si te paran en un control estás en infracción. El descuento no vale el riesgo.
+</Accordion>
+
+<Accordion title="No verificar que tus datos estén correctos">
+Si el CUIT en la factura está mal o el nombre no coincide, esa factura no te sirve como comprobante válido. Verificá siempre antes de pagarla.
+</Accordion>
+
+<Accordion title="Perder facturas y no tener respaldo digital">
+El papel se pierde, se moja, se rompe. Siempre pedí la factura en PDF por email y guardala en la nube. Si te la dan solo en papel, escaneala o sacale foto ese mismo día.
+</Accordion>
+
+<Note>
+La factura también sirve como garantía. Si el producto tiene defectos dentro del período de garantía legal (6 meses para productos nuevos en Argentina), la factura prueba la compra y la fecha. Sin factura, el reclamo de garantía es casi imposible.
+</Note>
