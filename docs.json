@@ -52,8 +52,22 @@
                                 "group": "Modelo de Negocio",
                                 "icon": "money-bill",
                                 "pages": [
+                                    "app/paso1-argentina/empezar-de-cero/modelos-negocio-intro",
                                     "app/paso1-argentina/empezar-de-cero/comprar-revender-margen",
                                     "app/paso1-argentina/empezar-de-cero/canales-venta"
+                                ]
+                            },
+                            {
+                                "group": "Modelos Alternativos",
+                                "icon": "lightbulb",
+                                "pages": [
+                                    "app/paso1-argentina/empezar-de-cero/consignacion",
+                                    "app/paso1-argentina/empezar-de-cero/dropshipping-local",
+                                    "app/paso1-argentina/empezar-de-cero/marca-blanca",
+                                    "app/paso1-argentina/empezar-de-cero/venta-b2b-distribucion",
+                                    "app/paso1-argentina/empezar-de-cero/representacion-comercial",
+                                    "app/paso1-argentina/empezar-de-cero/servicios-complementarios",
+                                    "app/paso1-argentina/empezar-de-cero/comparacion-modelos"
                                 ]
                             }
                         ]
@@ -174,6 +188,19 @@
                                     "app/paso1-argentina/evaluar-negociar/control-calidad-recepcion",
                                     "app/paso1-argentina/evaluar-negociar/relacion-largo-plazo",
                                     "app/paso1-argentina/evaluar-negociar/escalar-volumen"
+                                ]
+                            },
+                            {
+                                "group": "Riesgos y Problemas",
+                                "icon": "triangle-exclamation",
+                                "pages": [
+                                    "app/paso1-argentina/evaluar-negociar/estafas-fraudes",
+                                    "app/paso1-argentina/evaluar-negociar/problemas-calidad",
+                                    "app/paso1-argentina/evaluar-negociar/proveedor-problemas",
+                                    "app/paso1-argentina/evaluar-negociar/stock-muerto",
+                                    "app/paso1-argentina/evaluar-negociar/competencia-mercado",
+                                    "app/paso1-argentina/evaluar-negociar/reclamos-devoluciones",
+                                    "app/paso1-argentina/evaluar-negociar/riesgos-regulatorios"
                                 ]
                             },
                             {
