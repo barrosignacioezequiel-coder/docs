@@ -28,6 +28,15 @@
                                 ]
                             },
                             {
+                                "group": "Plan Recomendado",
+                                "icon": "route",
+                                "pages": [
+                                    "app/paso1-argentina/empezar-de-cero/plan-recomendado",
+                                    "app/paso1-argentina/empezar-de-cero/hoja-ruta-mes-a-mes",
+                                    "app/paso1-argentina/empezar-de-cero/errores-fatales-principiante"
+                                ]
+                            },
+                            {
                                 "group": "Requisitos Legales",
                                 "icon": "scale-balanced",
                                 "pages": [
