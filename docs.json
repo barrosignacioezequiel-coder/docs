@@ -303,6 +303,43 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "dropdown": "Crecer y Gestionar",
+                        "icon": "chart-line-up",
+                        "groups": [
+                            {
+                                "group": "Finanzas y Operaciones",
+                                "icon": "money-bill-transfer",
+                                "pages": [
+                                    "app/paso1-argentina/crecer-gestionar/flujo-caja",
+                                    "app/paso1-argentina/crecer-gestionar/gestion-inventario",
+                                    "app/paso1-argentina/crecer-gestionar/pricing-dinamico",
+                                    "app/paso1-argentina/crecer-gestionar/transicion-fiscal"
+                                ]
+                            },
+                            {
+                                "group": "Escalar el Negocio",
+                                "icon": "rocket",
+                                "pages": [
+                                    "app/paso1-argentina/crecer-gestionar/herramientas-gestion",
+                                    "app/paso1-argentina/crecer-gestionar/contratar-empleados",
+                                    "app/paso1-argentina/crecer-gestionar/diversificar-rubros",
+                                    "app/paso1-argentina/crecer-gestionar/evolucion-negocio"
+                                ]
+                            },
+                            {
+                                "group": "Canales de Crecimiento",
+                                "icon": "shop",
+                                "pages": [
+                                    "app/paso1-argentina/crecer-gestionar/showroom-online-combo",
+                                    "app/paso1-argentina/crecer-gestionar/popup-stores-ferias",
+                                    "app/paso1-argentina/crecer-gestionar/consignacion-tiendas",
+                                    "app/paso1-argentina/crecer-gestionar/venta-b2b-practica",
+                                    "app/paso1-argentina/crecer-gestionar/local-comercial"
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
