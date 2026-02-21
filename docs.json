@@ -198,7 +198,81 @@
                                 "pages": [
                                     "app/paso1-argentina/oportunidades/introduccion",
                                     "app/paso1-argentina/oportunidades/como-elegir-rubro",
-                                    "app/paso1-argentina/oportunidades/criterios-evaluacion"
+                                    "app/paso1-argentina/oportunidades/criterios-evaluacion",
+                                    "app/paso1-argentina/oportunidades/ranking-general",
+                                    "app/paso1-argentina/oportunidades/puente-importacion"
+                                ]
+                            },
+                            {
+                                "group": "🥇 Bijouterie y Accesorios",
+                                "icon": "gem",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/bijouterie/overview",
+                                    "app/paso1-argentina/oportunidades/bijouterie/proveedores",
+                                    "app/paso1-argentina/oportunidades/bijouterie/estrategia-venta"
+                                ]
+                            },
+                            {
+                                "group": "🥈 Marroquinería",
+                                "icon": "bag-shopping",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/marroquineria/overview",
+                                    "app/paso1-argentina/oportunidades/marroquineria/proveedores",
+                                    "app/paso1-argentina/oportunidades/marroquineria/estrategia-venta"
+                                ]
+                            },
+                            {
+                                "group": "🥉 Fitness y Deporte",
+                                "icon": "dumbbell",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/fitness/overview",
+                                    "app/paso1-argentina/oportunidades/fitness/proveedores",
+                                    "app/paso1-argentina/oportunidades/fitness/estrategia-venta"
+                                ]
+                            },
+                            {
+                                "group": "#4 Mascotas",
+                                "icon": "paw",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/mascotas/overview",
+                                    "app/paso1-argentina/oportunidades/mascotas/proveedores",
+                                    "app/paso1-argentina/oportunidades/mascotas/estrategia-venta"
+                                ]
+                            },
+                            {
+                                "group": "#5 Decoración y Organización",
+                                "icon": "couch",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/decoracion/overview",
+                                    "app/paso1-argentina/oportunidades/decoracion/proveedores",
+                                    "app/paso1-argentina/oportunidades/decoracion/estrategia-venta"
+                                ]
+                            },
+                            {
+                                "group": "#6 Papelería y Escolares",
+                                "icon": "pen-ruler",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/papeleria/overview",
+                                    "app/paso1-argentina/oportunidades/papeleria/proveedores",
+                                    "app/paso1-argentina/oportunidades/papeleria/estrategia-venta"
+                                ]
+                            },
+                            {
+                                "group": "#7 Packaging",
+                                "icon": "box-open",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/packaging/overview",
+                                    "app/paso1-argentina/oportunidades/packaging/proveedores",
+                                    "app/paso1-argentina/oportunidades/packaging/estrategia-venta"
+                                ]
+                            },
+                            {
+                                "group": "#8 Bazar y Hogar",
+                                "icon": "house",
+                                "pages": [
+                                    "app/paso1-argentina/oportunidades/bazar/overview",
+                                    "app/paso1-argentina/oportunidades/bazar/proveedores",
+                                    "app/paso1-argentina/oportunidades/bazar/estrategia-venta"
                                 ]
                             }
                         ]
