@@ -33,7 +33,8 @@
                                 "group": "Introducción",
                                 "icon": "book-open",
                                 "pages": [
-                                    "app/productos/atemporales/introduccion"
+                                    "app/productos/atemporales/introduccion",
+                                    "app/productos/atemporales/mejores-productos"
                                 ]
                             },
                             {
@@ -513,7 +514,8 @@
                                 "group": "Introducción",
                                 "icon": "book-open",
                                 "pages": [
-                                    "app/productos/verano/introduccion"
+                                    "app/productos/verano/introduccion",
+                                    "app/productos/verano/mejores-productos"
                                 ]
                             },
                             {
@@ -931,7 +933,8 @@
                                 "group": "Introducción",
                                 "icon": "book-open",
                                 "pages": [
-                                    "app/productos/otono/introduccion"
+                                    "app/productos/otono/introduccion",
+                                    "app/productos/otono/mejores-productos"
                                 ]
                             },
                             {
@@ -1320,7 +1323,8 @@
                                 "group": "Introducción",
                                 "icon": "book-open",
                                 "pages": [
-                                    "app/productos/invierno/introduccion"
+                                    "app/productos/invierno/introduccion",
+                                    "app/productos/invierno/mejores-productos"
                                 ]
                             },
                             {
@@ -1698,7 +1702,8 @@
                                 "group": "Introducción",
                                 "icon": "book-open",
                                 "pages": [
-                                    "app/productos/primavera/introduccion"
+                                    "app/productos/primavera/introduccion",
+                                    "app/productos/primavera/mejores-productos"
                                 ]
                             },
                             {
