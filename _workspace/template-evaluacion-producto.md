@@ -774,7 +774,7 @@ PUNTAJE   | DECISION                | ACCION
 - 7-8: Margen bruto 50-70%
 - 5-6: Margen bruto 40-50%
 - 3-4: Margen bruto 30-40%
-- 1-2: Margen bruto <30%
+- 1-2: Margen bruto menor a 30%
 
 **Demanda del mercado (peso 18%):**
 - 9-10: Producto en tendencia creciente, muchas busquedas, ventas altas

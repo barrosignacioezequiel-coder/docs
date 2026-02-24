@@ -428,7 +428,7 @@ Sin productos nuevos de primavera. Los instrumentos musicales no tienen pico pri
 **Productos OTOÑO:** pelotas futbol escolar, colchonetas gimnasia, kits Ed.Fisica, huevos Pascua
 **Productos INVIERNO:** peluches Labubu/blind box, peluches clasicos, bloques avanzados, juegos mesa, figuras accion, equipo ski, autos RC, muñecas Cry Babies, microfonos karaoke, kits ciencia, triciclos/bici sin pedales, casas muñecas
 
-**ADVERTENCIA REGULATORIA:** IRAM 3583 obligatorio para juguetes <14 anos. Res. 313/2025 simplifico.
+**ADVERTENCIA REGULATORIA:** IRAM 3583 obligatorio para juguetes menores de 14 anos. Res. 313/2025 simplifico.
 
 **Contexto estacional primavera:** Preparacion para verano. Actividades al aire libre. CyberMonday impulsa compras anticipadas de juguetes para Navidad. Articulos deportivos de exterior crecen.
 
@@ -580,7 +580,7 @@ CyberMonday: $600 mil millones facturacion. 12.1 millones unidades. Deco+Hogar +
 | **Antidumping calzado chino** (Res. 915/2021) | Cap. 64 (zapatillas) | FOB minimo USD 15.70/par. Zapatillas deportivas marca china pueden funcionar si FOB > USD 15.70. |
 | **S-Mark + IRAM seguridad electrica** | Cap. 84 (aires acondicionados, planchitas pelo, desmalezadoras), Cap. 85 (smartwatches, dispositivos streaming) | QR obligatorio desde Oct 2025. Res. 16/2025 acepta certificados IEC. Aires acondicionados: etiquetado energetico OBLIGATORIO. |
 | **ENACOM** | Cap. 85 (smartwatches BT, dispositivos streaming WiFi), Cap. 84 (aires con WiFi) | Solo si tiene WiFi/BT. |
-| **IRAM 3583 juguetes** (Res. 313/2025) | Cap. 95 (juguetes exterior, camas elasticas, juguetes Navidad) | OBLIGATORIO <14 anos. Res. 313/2025 acepta EN-71/ASTM. |
+| **IRAM 3583 juguetes** (Res. 313/2025) | Cap. 95 (juguetes exterior, camas elasticas, juguetes Navidad) | OBLIGATORIO menores de 14 anos. Res. 313/2025 acepta EN-71/ASTM. |
 | **Etiquetado energetico** | Cap. 84 (aires acondicionados) | Obligatorio clase A o superior. Impacta costo de certificacion. |
 | **Marcas registradas** | Cap. 85 (Xiaomi, Garmin, Roku), Cap. 64 (Adidas, Nike) | Las marcas registradas requieren distribucion autorizada. Importar marcas propias o genericas. |
 

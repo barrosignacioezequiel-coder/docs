@@ -124,14 +124,14 @@ Reune a las **cadenas agroindustriales** del pais.
 
 ```mermaid
 graph TD
-    A["Que producto buscas?"] --> B{"Es metalurgico\no metalmecanico?"}
+    A["Que producto buscas?"] --> B{"Es metalurgico<br/>o metalmecanico?"}
     B -- Si --> C["Contactar ADIMRA"]
-    B -- No --> D{"Es alimento\no agroindustrial?"}
-    D -- Si --> E["Contactar Consejo\nAgroindustrial"]
-    D -- No --> F{"Tu fabrica ideal\nes PyME?"}
+    B -- No --> D{"Es alimento<br/>o agroindustrial?"}
+    D -- Si --> E["Contactar Consejo<br/>Agroindustrial"]
+    D -- No --> F{"Tu fabrica ideal<br/>es PyME?"}
     F -- Si --> G["Contactar CAME"]
     F -- No / No se --> H["Contactar UIA"]
-    C --> I["Pedir directorio\nde asociados"]
+    C --> I["Pedir directorio<br/>de asociados"]
     E --> I
     G --> I
     H --> I

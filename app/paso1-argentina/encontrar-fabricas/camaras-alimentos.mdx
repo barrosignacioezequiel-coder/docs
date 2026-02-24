@@ -105,14 +105,14 @@ COPAL tiene camaras para practicamente cada tipo de alimento. Estos son los mas 
 
 ```mermaid
 graph TD
-    A["Que alimento\nbuscas?"] --> B["Contactar COPAL\npara derivacion"]
-    B --> C["Camara especifica\ndel sub-sector"]
-    C --> D["Pedir directorio\nde fabricantes"]
-    D --> E{"Fabricante tiene\nRNE y RNPA?"}
-    E -- Si --> F["Verificar en\nANMAT/SENASA"]
-    E -- No --> G["DESCARTAR\neste fabricante"]
-    F --> H{"Habilitaciones\nvigentes?"}
-    H -- Si --> I["AVANZAR\na contacto"]
+    A["Que alimento<br/>buscas?"] --> B["Contactar COPAL<br/>para derivacion"]
+    B --> C["Camara especifica<br/>del sub-sector"]
+    C --> D["Pedir directorio<br/>de fabricantes"]
+    D --> E{"Fabricante tiene<br/>RNE y RNPA?"}
+    E -- Si --> F["Verificar en<br/>ANMAT/SENASA"]
+    E -- No --> G["DESCARTAR<br/>este fabricante"]
+    F --> H{"Habilitaciones<br/>vigentes?"}
+    H -- Si --> I["AVANZAR<br/>a contacto"]
     H -- No --> G
 
     style G fill:#ffcdd2,stroke:#c62828

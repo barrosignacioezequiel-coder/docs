@@ -77,15 +77,15 @@ Los problemas de calidad no siempre son intencionales ni indican mala fe del pro
 ```mermaid
 graph TD
     A["Detectaste defectos en el lote"] --> B{"¿Es defecto de seguridad?"}
-    B -- "Sí" --> C["RECHAZÁ todo el lote\nExigí devolución total"]
+    B -- "Sí" --> C["RECHAZÁ todo el lote<br/>Exigí devolución total"]
     B -- "No" --> D{"¿Tasa de defectos?"}
-    D -- "Menos del 5%" --> E["Aceptable\nSepará defectuosos\nPedí crédito por esas unidades"]
-    D -- "5% a 20%" --> F["Problema moderado\nNegociá descuento o\nreemplazo parcial"]
-    D -- "Más del 20%" --> G["Problema grave\nNegociá reemplazo\ntotal o devolución"]
+    D -- "Menos del 5%" --> E["Aceptable<br/>Separá defectuosos<br/>Pedí crédito por esas unidades"]
+    D -- "5% a 20%" --> F["Problema moderado<br/>Negociá descuento o<br/>reemplazo parcial"]
+    D -- "Más del 20%" --> G["Problema grave<br/>Negociá reemplazo<br/>total o devolución"]
     G --> H{"¿La fábrica responde?"}
     F --> H
-    H -- "Sí, coopera" --> I["Acordá solución\npor escrito"]
-    H -- "No responde" --> J["Evaluá si seguís\ncon este proveedor"]
+    H -- "Sí, coopera" --> I["Acordá solución<br/>por escrito"]
+    H -- "No responde" --> J["Evaluá si seguís<br/>con este proveedor"]
 ```
 
 ## Acuerdo de calidad preventivo

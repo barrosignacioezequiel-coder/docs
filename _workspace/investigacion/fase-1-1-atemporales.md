@@ -441,7 +441,7 @@ Misma advertencia que Cap. 61. Argentina mantiene **derechos antidumping vigente
 
 | # | Tipo de producto | Archivo MDX | Justificacion | Evidencia de demanda |
 |---|-----------------|-------------|---------------|----------------------|
-| 1 | Ukuleles | `ukuleles.mdx` | Demanda estable. China mayor productor. FOB: USD 5-20. Peso <1 kg. | Soprano 21" mas popular. Deviser, Alabama, Leonard. |
+| 1 | Ukuleles | `ukuleles.mdx` | Demanda estable. China mayor productor. FOB: USD 5-20. Peso menor a 1 kg. | Soprano 21" mas popular. Deviser, Alabama, Leonard. |
 | 2 | Kalimbas (piano de pulgar) | `kalimbas.mdx` | Viralizado en redes, consolidado. FOB: USD 3-10. Compacto. | 17 teclas mas vendidas. Popular como regalo. |
 | 3 | Accesorios para guitarra | `accesorios_guitarra.mdx` | Argentina altisimo indice guitarristas. Reposicion constante. FOB: USD 0.20-5. | Demanda masiva permanente. |
 | 4 | Teclados musicales 61 teclas | `teclados_musicales.mdx` | Demanda estable + pico fechas regalo. FOB: USD 15-50. | Espacio gama economica para chinas. |
@@ -473,7 +473,7 @@ Misma advertencia que Cap. 61. Argentina mantiene **derechos antidumping vigente
 | 1 | Juguetes didacticos (STEM, Montessori) | `juguetes_didacticos.mdx` | **SI** | Bloques magneticos, rompecabezas 3D, robotica. FOB: USD 2-15. | Alta demanda. Bloques magneticos bestseller. |
 | 2 | Bandas elasticas fitness | `bandas_elasticas_fitness.mdx` | **NO** | Home workout consolidado. Sets 5 bandas. FOB: USD 1-5. | Bestseller deporte. Ranbak, Gadnic. |
 | 3 | Pelotas deportivas | `pelotas_deportivas.mdx` | **NO** | Argentina = futbol. Demanda inagotable. FOB: USD 3-15. | Masiva permanente. Espacio segmento economico. |
-| 4 | Juegos de mesa y cartas | `juegos_mesa.mdx` | **SI** (<14) | Demanda constante. FOB: USD 1-8. Liviano. | Pico Dia Nino pero todo el ano. |
+| 4 | Juegos de mesa y cartas | `juegos_mesa.mdx` | **SI** (menores de 14) | Demanda constante. FOB: USD 1-8. Liviano. | Pico Dia Nino pero todo el ano. |
 | 5 | Mancuernas y pesas | `mancuernas_pesas.mdx` | **NO** | Home gym consolidado. **CUIDADO:** pesado. FOB: USD 5-30. | Alta demanda. Ranbak, Gadnic, Olmo. |
 | 6 | Drones recreativos | `drones_recreativos.mdx` | **SI**/ENACOM | Entretenimiento/regalo. FOB: USD 10-50. Doble regulacion posible. | Demanda estable. Mini principiantes populares. |
 

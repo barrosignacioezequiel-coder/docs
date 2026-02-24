@@ -77,13 +77,13 @@ ARCA ofrece un servicio gratuito llamado **Comprobantes en Linea** para emitir f
 
 ```mermaid
 graph TD
-    A["Realizas una venta"] --> B{"Monto mayor a\n$75.000 aprox.?"}
-    B -- No --> C["Factura C a\nConsumidor Final\n(sin CUIT del comprador)"]
-    B -- Si --> D["Factura C con\nCUIT/DNI del comprador"]
-    C --> E["Emitir por\nARCA / App"]
+    A["Realizas una venta"] --> B{"Monto mayor a<br/>$75.000 aprox.?"}
+    B -- No --> C["Factura C a<br/>Consumidor Final<br/>(sin CUIT del comprador)"]
+    B -- Si --> D["Factura C con<br/>CUIT/DNI del comprador"]
+    C --> E["Emitir por<br/>ARCA / App"]
     D --> E
     E --> F["ARCA genera CAE"]
-    F --> G["Enviar factura\nal comprador"]
+    F --> G["Enviar factura<br/>al comprador"]
 ```
 
 <Warning>

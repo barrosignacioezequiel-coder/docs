@@ -122,16 +122,16 @@ Usá este flujo para decidir si avanzar con una fábrica:
 
 ```mermaid
 graph TD
-    A["Tenés el CUIT\nde la fábrica?"] -- Sí --> B["CUIT activo\nen ARCA?"]
-    A -- No lo da --> Z["DESCARTÁ\nesta fábrica"]
+    A["Tenés el CUIT<br/>de la fábrica?"] -- Sí --> B["CUIT activo<br/>en ARCA?"]
+    A -- No lo da --> Z["DESCARTÁ<br/>esta fábrica"]
     B -- Sí --> C["Emite factura?"]
     B -- No / Baja --> Z
-    C -- Sí --> D["Googlear:\nsin reclamos graves?"]
+    C -- Sí --> D["Googlear:<br/>sin reclamos graves?"]
     C -- No --> Z
-    D -- Sin problemas --> E["Domicilio\nverificable?"]
+    D -- Sin problemas --> E["Domicilio<br/>verificable?"]
     D -- Muchos reclamos --> Z
-    E -- Sí --> F["AVANZAR\na evaluación"]
-    E -- No --> G["Proceder\ncon precaución"]
+    E -- Sí --> F["AVANZAR<br/>a evaluación"]
+    E -- No --> G["Proceder<br/>con precaución"]
 
     style Z fill:#ffcdd2,stroke:#c62828
     style F fill:#c8e6c9,stroke:#2e7d32

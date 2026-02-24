@@ -83,8 +83,8 @@ Si la Cuenta 1 te da 90 unidades pero la Cuenta 2 te da 120, pedi **90**. Si la 
 
 ```mermaid
 graph TD
-    A["Estimar ventas mensuales\n(ej: 30 uds/mes)"] --> B["Cuenta 1\n30 x 2.5 meses = 75 uds"]
-    C["Capital disponible\n(ej: ARS 300,000)"] --> D["Cuenta 2\n300,000 / 2,500 = 120 uds"]
+    A["Estimar ventas mensuales<br/>(ej: 30 uds/mes)"] --> B["Cuenta 1<br/>30 x 2.5 meses = 75 uds"]
+    C["Capital disponible<br/>(ej: ARS 300,000)"] --> D["Cuenta 2<br/>300,000 / 2,500 = 120 uds"]
     B --> E{"Elegir el MENOR"}
     D --> E
     E --> F["Primer pedido: 75 unidades"]
@@ -172,16 +172,16 @@ Estos valores son orientativos para febrero 2026 y dependen del costo unitario d
 
 ```mermaid
 graph TD
-    A["Cuanto capital tengo?"] --> B{"Mas de ARS 100,000\npara un producto?"}
-    B -- No --> C["Compra stock disponible\nsin MOQ, cantidad chica"]
-    B -- Si --> D["Estimo ventas mensuales\n(investigar MercadoLibre)"]
-    D --> E["Calculo Cuenta 1\nVentas x 2.5 meses"]
-    D --> F["Calculo Cuenta 2\nCapital / Costo unitario"]
-    E --> G{"Elijo el MENOR\nentre ambas cuentas"}
+    A["Cuanto capital tengo?"] --> B{"Mas de ARS 100,000<br/>para un producto?"}
+    B -- No --> C["Compra stock disponible<br/>sin MOQ, cantidad chica"]
+    B -- Si --> D["Estimo ventas mensuales<br/>(investigar MercadoLibre)"]
+    D --> E["Calculo Cuenta 1<br/>Ventas x 2.5 meses"]
+    D --> F["Calculo Cuenta 2<br/>Capital / Costo unitario"]
+    E --> G{"Elijo el MENOR<br/>entre ambas cuentas"}
     F --> G
-    G --> H{"Es mayor al MOQ\nde la fabrica?"}
+    G --> H{"Es mayor al MOQ<br/>de la fabrica?"}
     H -- Si --> I["Pedi esa cantidad"]
-    H -- No --> J["Negocia MOQ menor\no busca otra fabrica"]
+    H -- No --> J["Negocia MOQ menor<br/>o busca otra fabrica"]
 
     style A fill:#e3f2fd,stroke:#1565c0
     style G fill:#fff3e0,stroke:#ef6c00
