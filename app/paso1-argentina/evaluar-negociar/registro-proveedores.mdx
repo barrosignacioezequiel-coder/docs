@@ -168,7 +168,7 @@ graph TD
     A["Recibís un pedido"] --> B["Actualizás calidad y puntualidad"]
     B --> C["Recalculás puntaje del proveedor"]
     C --> D{"¿Puntaje total mayor a 14/20?"}
-    D -->|Sí| E["Mantener como proveedor activo"]
+    D -->|"Sí"| E["Mantener como proveedor activo"]
     D -->|No| F["Buscar alternativas y evaluar"]
 
     style E fill:#4caf50,stroke:#2e7d32,color:#fff
