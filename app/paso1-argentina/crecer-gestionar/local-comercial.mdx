@@ -70,8 +70,8 @@ Hagamos el cálculo con un local de costos intermedios:
 ```mermaid
 graph TD
     A["Facturación<br/>mensual total"] --> B{"Es mayor a<br/>ARS 4M?"}
-    B -->|"Sí"| C["El local<br/>genera ganancia"]
-    B -->|"No"| D["El local<br/>te da pérdida"]
+    B -->|Sí| C["El local<br/>genera ganancia"]
+    B -->|No| D["El local<br/>te da pérdida"]
     C --> E["Asegurate que al menos<br/>30% viene del local"]
     D --> F["Mejor seguir<br/>con canales online<br/>y showroom"]
 
@@ -169,9 +169,9 @@ graph TD
     C["Local físico<br/>Experiencia presencial<br/>20% de ventas"] --> D
 
     D --> E["Cliente compra<br/>en cualquier canal"]
-    E -->|"Conoció en ML"| C
-    E -->|"Vio en el local"| A
-    E -->|"Siguió en IG"| B
+    E -->|Conoció en ML| C
+    E -->|Vio en el local| A
+    E -->|Siguió en IG| B
 
     style A fill:#2196f3,stroke:#1565c0,color:#fff
     style B fill:#9c27b0,stroke:#7b1fa2,color:#fff
